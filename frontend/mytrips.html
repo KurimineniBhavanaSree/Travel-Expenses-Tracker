@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Trips - AI Travel Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .trip-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.2s;
+        }
+        .trip-card:hover {
+            transform: translateY(-3px);
+        }
+        .trip-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .trip-dates {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .trip-destination {
+            color: #444;
+            margin-bottom: 15px;
+        }
+        .trip-actions {
+            display: flex;
+            gap: 10px;
+        }
+        .trip-actions button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1em;
+            color: #444;
+        }
+        .trip-actions button:hover {
+            color: #007bff;
+        }
+        .no-trips {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+        .no-trips i {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #ccc;
+        }
+        .loading-spinner {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+        .error-message {
+            color: #d9534f;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0; top: 0;
+            width: 100%; height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .modal-content {
+            background-color: #fff;
+            margin: 10% auto;
+            padding: 20px;
+            width: 90%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .modal-close {
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .modal form input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .modal form button {
+            margin-top: 10px;
+            padding: 10px;
+            width: 100%;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .modal form button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar-container"></div>
+
+    <div class="dashboard-container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="tripdetails.html"><i class="fas fa-route"></i> Plan Your Trip</a></li>
+                <li class="active"><a href="mytrips.html"><i class="fas fa-suitcase"></i> My Trips</a></li>
+                <li><a href="expenses.html"><i class="fas fa-wallet"></i> Expenses</a></li>
+                <li><a href="reports.html"><i class="fas fa-chart-pie"></i> Reports</a></li>
+                <li><a href="settings.html"><i class="fas fa-cog"></i> Settings</a></li>
+                <li><a href="#" id="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h1>My Trips</h1>
+            
+            <div class="trips-container" id="trips-container">
+                <!-- Trips will be loaded here dynamically -->
+                <div class="loading-spinner">
+                    <i class="fas fa-spinner fa-spin"></i> Loading your trips...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Trip Modal -->
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span>Edit Trip</span>
+                <span class="modal-close" onclick="closeEditModal()">&times;</span>
+            </div>
+            <form id="editTripForm">
+                <input type="hidden" id="editTripId">
+                <input type="text" id="editTripName" placeholder="Trip Name" required>
+                <input type="text" id="editTripDestination" placeholder="Destination" required>
+                <input type="date" id="editTripStartDate" required>
+                <input type="date" id="editTripEndDate" required>
+                <button type="submit">Save Changes</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/auth.js"></script>
+    <script src="js/mytrips.js"></script>
+</body>
+</html>

@@ -1,0 +1,4572 @@
+{
+  "places": [
+    {
+      "name": "Jaipur",
+      "type": "Tourist",
+      "location": "Jaipur, Rajasthan",
+      "activities": [
+        { "name": "Amber Fort Exploration", "description": "Discover the grandeur of Amber Fort, a blend of Hindu and Mughal architecture.", "duration": "2 hours" },
+        { "name": "City Palace Visit", "description": "Explore the royal residence showcasing artifacts and courtyards.", "duration": "2 hours" },
+        { "name": "Hawa Mahal Photo Stop", "description": "Capture the iconic 'Palace of Winds' with its unique façade.", "duration": "1 hour" },
+        { "name": "Jantar Mantar Tour", "description": "Visit the UNESCO World Heritage site featuring astronomical instruments.", "duration": "1.5 hours" },
+        { "name": "Jaipur Bazaars Shopping", "description": "Shop for handicrafts, textiles, and jewelry in local markets.", "duration": "4 hours" },
+        { "name": "Elephant Ride at Amer", "description": "Experience a traditional elephant ride up to Amber Fort.", "duration": "1 hour" },
+        { "name": "Albert Hall Museum Visit", "description": "Explore Rajasthan's oldest museum with diverse exhibits.", "duration": "2 hours" },
+        { "name": "Nahargarh Fort Sunset View", "description": "Enjoy panoramic views of Jaipur from the fort at sunset.", "duration": "1.5 hours" },
+        { "name": "Chokhi Dhani Cultural Evening", "description": "Experience Rajasthani culture with folk dances and cuisine.", "duration": "2.5 hours" },
+        { "name": "Birla Mandir Visit", "description": "Visit the white marble temple dedicated to Lord Vishnu and Goddess Lakshmi.", "duration": "1.5 hours" },
+        { "name": "Jaipur Wax Museum Tour", "description": "See lifelike wax figures of historical and contemporary personalities.", "duration": "2 hours" },
+        { "name": "Anokhi Museum of Hand Printing", "description": "Learn about traditional block printing techniques.", "duration": "1.5 hours" },
+        { "name": "Jaipur Literature Festival Attendance", "description": "Participate in the world’s largest free literary festival.", "duration": "Varies" },
+        { "name": "Rambagh Palace High Tea", "description": "Enjoy high tea at the luxurious Rambagh Palace.", "duration": "1.5 hours" },
+        { "name": "Hot Air Balloon Ride", "description": "Experience Jaipur from above with a scenic balloon ride.", "duration": "1 hour" }
+      ]
+    },
+    {
+      "name": "Agra",
+      "type": "Tourist",
+      "location": "Agra, Uttar Pradesh",
+      "activities": [
+        {"name": "Taj Mahal Sunrise Tour", "description": "Visit the iconic Taj Mahal at sunrise.", "duration": "2h"},
+        {"name": "Agra Fort Visit", "description": "Explore the historical Agra Fort complex.", "duration": "1.5h"},
+        {"name": "Mehtab Bagh Garden", "description": "Relax in the garden with views of the Taj Mahal.", "duration": "1h"},
+        {"name": "Fatehpur Sikri Excursion", "description": "Tour the abandoned Mughal city nearby.", "duration": "3h"},
+        {"name": "Local Market Shopping", "description": "Shop for marble crafts and leather goods.", "duration": "2h"},
+        {"name": "Itmad-ud-Daulah's Tomb", "description": "Visit the 'Baby Taj', a beautiful mausoleum.", "duration": "1h"},
+        {"name": "Chini Ka Rauza", "description": "Explore the funerary monument of a Persian poet.", "duration": "45m"},
+        {"name": "Jama Masjid Visit", "description": "Tour one of Agra’s largest mosques.", "duration": "1h"},
+        {"name": "Kinari Bazaar Walk", "description": "Stroll through the lively shopping street.", "duration": "1h"},
+        {"name": "Kalakriti Cultural Show", "description": "Watch a traditional dance and music performance.", "duration": "2h"},
+        {"name": "Agra Art and Craft Museum", "description": "View local art and crafts.", "duration": "1h"},
+        {"name": "Day Visit to Sikandra", "description": "Visit Akbar’s tomb at Sikandra.", "duration": "1.5h"},
+        {"name": "Sunset View from Taj View Point", "description": "See the Taj Mahal at sunset from a distance.", "duration": "1h"},
+        {"name": "Street Food Tasting", "description": "Try local delicacies like petha and chaat.", "duration": "1h"},
+        {"name": "Marble Inlay Workshop Visit", "description": "Watch artisans create marble inlay art.", "duration": "1h"}
+      ]
+    },
+    {
+      "name": "Goa",
+      "type": "Tourist",
+      "location": "Goa",
+      "activities": [
+        {"name": "Baga Beach Relaxation", "description": "Sunbathe and enjoy water sports at Baga Beach.", "duration": "3h"},
+        {"name": "Fort Aguada Visit", "description": "Explore the 17th-century Portuguese fort.", "duration": "1.5h"},
+        {"name": "Old Goa Churches Tour", "description": "Visit Basilica of Bom Jesus and Se Cathedral.", "duration": "2h"},
+        {"name": "Dudhsagar Waterfalls", "description": "Take a day trip to the stunning waterfalls.", "duration": "4h"},
+        {"name": "Goa Night Market", "description": "Shop and enjoy street food at the night market.", "duration": "2h"},
+        {"name": "Scuba Diving at Grande Island", "description": "Experience underwater marine life.", "duration": "2h"},
+        {"name": "Panaji City Walk", "description": "Explore the capital city’s Latin Quarter.", "duration": "2h"},
+        {"name": "Sunset Cruise on Mandovi River", "description": "Enjoy a cruise with live music.", "duration": "2h"},
+        {"name": "Spice Plantation Tour", "description": "Visit a traditional spice farm.", "duration": "3h"},
+        {"name": "Anjuna Flea Market", "description": "Shop for handicrafts and souvenirs.", "duration": "2h"},
+        {"name": "Casino Night", "description": "Try your luck at Goa’s casinos.", "duration": "3h"},
+        {"name": "Water Sports at Calangute Beach", "description": "Jet skiing, parasailing, and more.", "duration": "3h"},
+        {"name": "Visit to Chapora Fort", "description": "Enjoy panoramic views of the coastline.", "duration": "1h"},
+        {"name": "Attend Sunburn Music Festival", "description": "Join Asia’s biggest electronic dance music festival.", "duration": "1 day"},
+        {"name": "Taste Goan Cuisine", "description": "Sample local dishes like vindaloo and sorpotel.", "duration": "1.5h"}
+      ]
+    },
+    {
+      "name": "Udaipur",
+      "type": "Tourist",
+      "location": "Udaipur, Rajasthan",
+      "activities": [
+        {"name": "Lake Pichola Boat Ride", "description": "Enjoy scenic views of the city’s lakes and palaces.", "duration": "1.5h"},
+        {"name": "City Palace Tour", "description": "Explore the sprawling palace complex.", "duration": "2h"},
+        {"name": "Saheliyon Ki Bari Visit", "description": "Visit the beautiful garden of maidens.", "duration": "1h"},
+        {"name": "Jag Mandir Island", "description": "Tour the island palace on Lake Pichola.", "duration": "1h"},
+        {"name": "Bagore Ki Haveli Museum", "description": "See Rajasthani arts and crafts in a historic haveli.", "duration": "1.5h"},
+        {"name": "Fatehsagar Lake Walk", "description": "Stroll along the lake promenade.", "duration": "1h"},
+        {"name": "Vintage Car Museum", "description": "View a collection of classic cars.", "duration": "1h"},
+        {"name": "Jagdish Temple Visit", "description": "Visit the famous Hindu temple in the city.", "duration": "1h"},
+        {"name": "Shilpgram Craft Village", "description": "Explore rural arts and crafts from Rajasthan.", "duration": "2h"},
+        {"name": "Monsoon Palace Sunset", "description": "Watch sunset views from Sajjangarh Palace.", "duration": "1h"},
+        {"name": "Cultural Dance Evening", "description": "Attend traditional dance performances.", "duration": "2h"},
+        {"name": "Local Market Shopping", "description": "Buy handicrafts, paintings, and textiles.", "duration": "2h"},
+        {"name": "Cooking Class", "description": "Learn Rajasthani cuisine from locals.", "duration": "3h"},
+        {"name": "Dinner at Ambrai Restaurant", "description": "Dine with a lakeside view.", "duration": "1.5h"},
+        {"name": "Boat Ride to Jag Mandir", "description": "Explore the island palace.", "duration": "1h"}
+      ]
+    },
+    {
+      "name": "Manali",
+      "type": "Tourist",
+      "location": "Manali, Himachal Pradesh",
+      "activities": [
+        {"name": "Solang Valley Adventure", "description": "Enjoy paragliding, zorbing, and skiing.", "duration": "3h"},
+        {"name": "Hadimba Temple Visit", "description": "Explore the unique wooden temple.", "duration": "1h"},
+        {"name": "Old Manali Walk", "description": "Discover cafes, shops, and local culture.", "duration": "2h"},
+        {"name": "Rohtang Pass Excursion", "description": "Visit the high mountain pass (seasonal).", "duration": "4h"},
+        {"name": "Jogini Waterfall Trek", "description": "Trek to beautiful Jogini Falls.", "duration": "2h"},
+        {"name": "Vashisht Hot Springs", "description": "Relax in natural hot springs.", "duration": "1.5h"},
+        {"name": "Manu Temple Visit", "description": "Visit the temple dedicated to sage Manu.", "duration": "1h"},
+        {"name": "Shopping at Mall Road", "description": "Buy woollens and souvenirs.", "duration": "2h"},
+        {"name": "Naggar Castle Tour", "description": "Explore historic castle and art gallery.", "duration": "2h"},
+        {"name": "Tibetan Monastery Visit", "description": "Experience Tibetan culture and prayer halls.", "duration": "1h"},
+        {"name": "River Rafting in Beas River", "description": "Enjoy white water rafting.", "duration": "2h"},
+        {"name": "Sunset at Hanuman Temple", "description": "Watch sunset views overlooking Manali.", "duration": "1h"},
+        {"name": "Paragliding Over Solang", "description": "Experience aerial views of the valley.", "duration": "1h"},
+        {"name": "Camping in the Valleys", "description": "Overnight camping in scenic locations.", "duration": "overnight"},
+        {"name": "Photography Walk", "description": "Capture landscapes and local life.", "duration": "2h"}
+      ]
+    },
+    {
+      "name": "Leh-Ladakh",
+      "type": "Tourist",
+      "location": "Leh-Ladakh, Jammu & Kashmir",
+      "activities": [
+        {"name": "Pangong Lake Visit", "description": "Visit the stunning high-altitude lake.", "duration": "3h"},
+        {"name": "Leh Palace Tour", "description": "Explore the historic palace ruins.", "duration": "1.5h"},
+        {"name": "Nubra Valley Excursion", "description": "Discover sand dunes and double-humped camels.", "duration": "full day"},
+        {"name": "Thiksey Monastery Visit", "description": "Tour the beautiful Buddhist monastery.", "duration": "1h"},
+        {"name": "Shanti Stupa Sunset", "description": "Enjoy panoramic sunset views.", "duration": "1h"},
+        {"name": "Magnetic Hill Visit", "description": "Experience the gravity-defying phenomenon.", "duration": "30m"},
+        {"name": "Hemis Monastery Festival", "description": "Attend annual cultural festival (July).", "duration": "full day"},
+        {"name": "Khardung La Pass Ride", "description": "Drive through one of the highest motorable roads.", "duration": "half day"},
+        {"name": "Zanskar River Rafting", "description": "Adventure rafting in Zanskar River.", "duration": "2h"},
+        {"name": "Local Market Shopping", "description": "Buy Ladakhi handicrafts and woolens.", "duration": "1h"},
+        {"name": "Visit Stok Palace Museum", "description": "View royal family artifacts.", "duration": "1h"},
+        {"name": "Tso Moriri Lake Visit", "description": "Explore the serene mountain lake.", "duration": "3h"},
+        {"name": "Visit Diskit Monastery", "description": "See the giant Buddha statue and monastery.", "duration": "1h"},
+        {"name": "Leh Market Walk", "description": "Explore shops and cafes.", "duration": "1h"},
+        {"name": "Try Ladakhi Cuisine", "description": "Taste traditional dishes like thukpa.", "duration": "1.5h"}
+      ]
+    },
+    {
+      "name": "Mumbai",
+      "type": "Tourist",
+      "location": "Mumbai, Maharashtra",
+      "activities": [
+        {"name": "Gateway of India Visit", "description": "See Mumbai’s iconic monument.", "duration": "1h"},
+        {"name": "Elephanta Caves Tour", "description": "Boat ride to UNESCO caves.", "duration": "3h"},
+        {"name": "Marine Drive Walk", "description": "Stroll along the Queen’s Necklace.", "duration": "1h"},
+        {"name": "Chhatrapati Shivaji Terminus", "description": "Visit historic railway station.", "duration": "1h"},
+        {"name": "Visit Mani Bhavan Gandhi Museum", "description": "Learn about Gandhi’s life.", "duration": "1h"},
+        {"name": "Shopping at Colaba Causeway", "description": "Buy souvenirs and clothes.", "duration": "2h"},
+        {"name": "Sanjay Gandhi National Park Trek", "description": "Explore nature in city.", "duration": "3h"},
+        {"name": "Haji Ali Dargah Visit", "description": "See the mosque on the sea.", "duration": "1h"},
+        {"name": "Visit Siddhivinayak Temple", "description": "Pray at famous Ganesh temple.", "duration": "1h"},
+        {"name": "Street Food Tasting at Juhu Beach", "description": "Try bhel puri and pav bhaji.", "duration": "1.5h"},
+        {"name": "Bollywood Studio Tour", "description": "Explore film industry hotspots.", "duration": "2h"},
+        {"name": "Visit Dr. Bhau Daji Lad Museum", "description": "View Mumbai’s history and artifacts.", "duration": "1h"},
+        {"name": "Sunset at Girgaum Chowpatty", "description": "Relax at beach with snacks.", "duration": "1h"},
+        {"name": "Art Galleries Visit", "description": "Visit Jehangir Art Gallery.", "duration": "1h"},
+        {"name": "Experience Nightlife at Bandra", "description": "Enjoy pubs and cafes.", "duration": "3h"}
+      ]
+    },
+    {
+      "name": "Darjeeling",
+      "type": "Hill Station",
+      "location": "Darjeeling, West Bengal",
+      "activities": [
+        {
+          "name": "Darjeeling Himalayan Railway Ride",
+          "description": "Experience the UNESCO World Heritage 'Toy Train' journey through scenic landscapes.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Tiger Hill Sunrise",
+          "description": "Witness the breathtaking sunrise over the Kanchenjunga peaks.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Batasia Loop Visit",
+          "description": "Explore the spiral railway track and war memorial amidst manicured gardens.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Padmaja Naidu Himalayan Zoological Park",
+          "description": "Discover rare Himalayan fauna including the snow leopard and red panda.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Peace Pagoda Visit",
+          "description": "Visit the Japanese Peace Pagoda symbolizing harmony and tranquility.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Himalayan Mountaineering Institute Tour",
+          "description": "Explore mountaineering history and exhibits dedicated to Tenzing Norgay.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Ghoom Monastery Visit",
+          "description": "Visit one of the oldest Tibetan Buddhist monasteries in Darjeeling.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Darjeeling Ropeway Ride",
+          "description": "Enjoy panoramic views of the valleys and tea gardens from the cable car.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Mahakal Temple Visit",
+          "description": "Explore the sacred temple dedicated to Lord Shiva atop Observatory Hill.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Tea Estate Tour",
+          "description": "Visit a tea estate to learn about tea processing and enjoy tastings.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Chowrasta Shopping",
+          "description": "Shop for local handicrafts and souvenirs at the bustling Chowrasta market.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Rock Garden Exploration",
+          "description": "Stroll through terraced gardens with waterfalls and scenic views.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Observatory Hill Trek",
+          "description": "Hike to the hilltop for panoramic views and spiritual ambiance.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Lloyd's Botanical Garden Visit",
+          "description": "Explore a diverse collection of Himalayan flora and exotic plants.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Sandakphu Trek",
+          "description": "Embark on a trek to the highest point in West Bengal for stunning vistas.",
+          "duration": "2 days"
+        }
+      ]
+    },
+    {
+      "name": "Shimla",
+      "type": "Hill Station",
+      "location": "Shimla, Himachal Pradesh",
+      "activities": [
+        {
+          "name": "Mall Road Stroll",
+          "description": "Enjoy shopping and local cuisines along the bustling Mall Road.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Jakhoo Temple Visit",
+          "description": "Climb to the hilltop temple dedicated to Lord Hanuman.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Christ Church Exploration",
+          "description": "Admire the neo-Gothic architecture of the second oldest church in North India.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "The Ridge Walk",
+          "description": "Take a leisurely walk offering panoramic views of the surrounding mountains.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Shimla State Museum Tour",
+          "description": "Explore Himachal's rich cultural heritage through various exhibits.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Kufri Day Trip",
+          "description": "Visit the nearby hill station of Kufri for adventure activities and scenic views.",
+          "duration": "4 hours"
+        },
+        {
+          "name": "Viceregal Lodge Visit",
+          "description": "Tour the historic building that once served as the summer residence of the British viceroy.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Tara Devi Temple Visit",
+          "description": "Seek blessings at the temple dedicated to Goddess Tara Devi.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Summer Hill Exploration",
+          "description": "Explore the picturesque suburb known for its serene environment.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Annandale Ground Visit",
+          "description": "Visit the historic ground that now houses an army museum.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Gaiety Theatre Tour",
+          "description": "Explore the historic theatre known for its Gothic architecture.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Scandal Point Visit",
+          "description": "Learn about the intriguing history of this popular meeting point.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Shimla Heritage Walk",
+          "description": "Take a guided walk to explore Shimla's colonial-era buildings.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Horse Riding at Kufri",
+          "description": "Enjoy horse riding amidst the scenic landscapes of Kufri.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Shimla Toy Train Ride",
+          "description": "Experience a ride on the Kalka-Shimla narrow-gauge railway.",
+          "duration": "5 hours"
+        }
+      ]
+    },
+    {
+      "name": "Ooty",
+      "type": "Hill Station",
+      "location": "Ooty, Tamil Nadu",
+      "activities": [
+        {
+          "name": "Nilgiri Mountain Railway Ride",
+          "description": "Experience a scenic journey on the UNESCO-listed heritage train.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Botanical Gardens Visit",
+          "description": "Explore a vast collection of exotic and indigenous plants.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Doddabetta Peak Trek",
+          "description": "Reach the highest point in the Nilgiris for panoramic views.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Ooty Lake Boating",
+          "description": "Enjoy paddle boating amidst serene surroundings.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Rose Garden Tour",
+          "description": "Witness thousands of rose varieties in full bloom.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Pykara Falls Visit",
+          "description": "Visit the picturesque waterfalls surrounded by lush greenery.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Tea Factory Tour",
+          "description": "Learn about tea processing and sample fresh brews.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Thread Garden Visit",
+          "description": "Explore the unique garden showcasing handcrafted plants and flowers.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "St. Stephen's Church Visit",
+          "description": "Visit one of the oldest churches in the Nilgiris with colonial architecture.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Wax World Museum Tour",
+          "description": "See lifelike wax statues of Indian personalities.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Avalanche Lake Trek",
+          "description": "Trek to the serene lake surrounded by mountains and forests.",
+          "duration": "3 hours"
+        },
+        {
+          "name": "Emerald Lake Visit",
+          "description": "Relax by the tranquil lake known for its greenish hue.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Mudumalai Wildlife Sanctuary Safari",
+          "description": "Go on a safari to spot diverse wildlife in their natural habitat.",
+          "duration": "3 hours"
+        },
+        {
+          "name": "Stone House Visit",
+          "description": "Explore the first bungalow constructed in Ooty, now a heritage building.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Shopping at Tibetan Market",
+          "description": "Shop for woollens, handicrafts, and souvenirs.",
+          "duration": "1.5 hours"
+        }
+      ]
+    },
+    {
+      "name": "Munnar",
+      "type": "Tourist",
+      "location": "Munnar, Kerala",
+      "activities": [
+        {
+          "name": "Tea Garden Visit",
+          "description": "Walk through sprawling tea plantations and learn about tea processing.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Eravikulam National Park Trek",
+          "description": "Explore the park famous for the endangered Nilgiri Tahr and beautiful landscapes.",
+          "duration": "3 hours"
+        },
+        {
+          "name": "Mattupetty Dam Visit",
+          "description": "Enjoy boating and scenic views near the dam reservoir.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Echo Point Exploration",
+          "description": "Visit the natural echo phenomenon spot surrounded by hills.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Anamudi Peak Viewpoint",
+          "description": "See the highest peak in South India and capture stunning views.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Kundala Lake Boating",
+          "description": "Enjoy pedal boating in a serene, picturesque lake surrounded by hills.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Attukal Waterfalls Visit",
+          "description": "Relax at the scenic waterfalls nestled in the Western Ghats.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Blossom International Park Walk",
+          "description": "Stroll through beautifully landscaped gardens with exotic flowers.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Local Market Shopping",
+          "description": "Shop for spices, homemade chocolates, and local handicrafts.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit to Tea Museum",
+          "description": "Learn the history of tea plantations and see vintage tea processing machines.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Photo Stop at Top Station",
+          "description": "Capture breathtaking views of the valley and Tamil Nadu plains.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Chinnar Wildlife Sanctuary Visit",
+          "description": "Explore a sanctuary home to rare flora and fauna, including the grizzled giant squirrel.",
+          "duration": "3 hours"
+        },
+        {
+          "name": "Visit to Lockhart Tea Factory",
+          "description": "Take a guided tour to see tea manufacturing and sample fresh tea.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Trekking to Meesapulimala",
+          "description": "Challenging trek to the second highest peak in the Western Ghats with spectacular views.",
+          "duration": "5 hours"
+        },
+        {
+          "name": "Sunset at Pothamedu Viewpoint",
+          "description": "Enjoy panoramic sunset views of the valleys, tea plantations, and hills.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Alleppey",
+      "type": "Tourist",
+      "location": "Alleppey, Kerala",
+      "activities": [
+        {
+          "name": "Houseboat Cruise on Backwaters",
+          "description": "Experience a relaxing overnight stay on traditional Kerala houseboats through the backwaters.",
+          "duration": "8 hours"
+        },
+        {
+          "name": "Alleppey Beach Visit",
+          "description": "Enjoy the sandy beach, palm-lined shores, and a calm sea breeze.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Krishnapuram Palace Tour",
+          "description": "Explore the historic palace with traditional Kerala architecture and murals.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Visit to Ambalappuzha Sri Krishna Temple",
+          "description": "Visit the ancient temple famous for its unique architecture and rituals.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Explore Alappuzha Lighthouse",
+          "description": "Climb the lighthouse for panoramic views of the town and sea.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Boat Ride through Narrow Canals",
+          "description": "Take small boat rides through the village canals to see local life and nature.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit to Marari Beach",
+          "description": "Relax at a serene, less crowded beach with coconut groves.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Local Seafood Dining Experience",
+          "description": "Savor fresh seafood specialties at local eateries along the backwaters.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Attend Snake Boat Race (Seasonal)",
+          "description": "Witness the thrilling traditional boat races if visiting during festival season.",
+          "duration": "3 hours"
+        },
+        {
+          "name": "Visit to Alappuzha Market",
+          "description": "Shop for local produce, spices, coir products, and souvenirs.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Kayaking in Backwaters",
+          "description": "Enjoy an active experience kayaking through the narrow canals and lagoons.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit to Ambalapuzha Museum",
+          "description": "Discover artifacts and exhibits on local history and culture.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Bird Watching at Kumarakom (nearby)",
+          "description": "Spot migratory birds in the famous Kumarakom Bird Sanctuary.",
+          "duration": "3 hours"
+        },
+        {
+          "name": "Explore Alleppey’s Coir Industry",
+          "description": "Learn about traditional coir making and handicrafts made from coconut fibers.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Sunset Viewing at Vembanad Lake",
+          "description": "Enjoy the tranquil sunset views over Kerala’s largest lake.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Rishikesh",
+      "type": "Adventure & Spiritual",
+      "location": "Rishikesh, Uttarakhand",
+      "activities": [
+        {
+          "name": "White Water Rafting",
+          "description": "Experience thrilling rafting on the Ganges with rapid levels ranging from easy to challenging.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Yoga and Meditation Sessions",
+          "description": "Join world-renowned yoga and meditation centers for rejuvenation and spiritual growth.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Visit to Triveni Ghat",
+          "description": "Witness the evening Ganga Aarti, a mesmerizing ritual with lamps, chants, and devotional music.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Laxman Jhula Walk",
+          "description": "Cross the iconic suspension bridge over the Ganges and explore nearby temples and cafes.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Neer Garh Waterfall Trek",
+          "description": "Enjoy a moderate trek leading to a beautiful waterfall surrounded by nature.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Camping by the River",
+          "description": "Spend a night camping on the banks of the Ganges with bonfires and music.",
+          "duration": "Overnight"
+        },
+        {
+          "name": "Visit to Beatles Ashram (Chaurasi Kutia)",
+          "description": "Explore the abandoned ashram once visited by The Beatles, now covered in vibrant graffiti art.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Bungee Jumping",
+          "description": "Experience India’s highest bungee jump with breathtaking views of the Himalayas.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Kayaking in the Ganges",
+          "description": "Paddle through calm stretches of the river, enjoying serene surroundings.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit to Parmarth Niketan Ashram",
+          "description": "Participate in spiritual discourses, yoga classes, and evening prayers.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Rishikesh Market Shopping",
+          "description": "Shop for spiritual books, handicrafts, clothes, and souvenirs.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Rajaji National Park Safari",
+          "description": "Go on a jeep safari to spot elephants, deer, and various bird species.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Visit to Swarg Ashram",
+          "description": "Explore this spiritual hub with temples, ashrams, and peaceful riverside walks.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Cliff Jumping at Shivpuri",
+          "description": "Try safe cliff jumping and swimming spots near Shivpuri beach on the Ganges.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Attend International Yoga Festival (seasonal)",
+          "description": "Join thousands of yoga practitioners from around the world in this annual festival.",
+          "duration": "Varies"
+        }
+      ]
+    },
+    {
+      "name": "Andaman and Nicobar Islands",
+      "type": "Beach & Adventure",
+      "location": "Andaman and Nicobar Islands, Union Territory",
+      "activities": [
+        {
+          "name": "Scuba Diving at Havelock Island",
+          "description": "Explore vibrant coral reefs and marine life in crystal clear waters.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit to Radhanagar Beach",
+          "description": "Relax on one of Asia’s best beaches with white sand and turquoise waters.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Snorkeling at Elephant Beach",
+          "description": "Swim alongside colorful fishes and corals in shallow waters.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Cellular Jail Tour",
+          "description": "Learn about India’s freedom struggle at the historic Cellular Jail in Port Blair.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Corbyn’s Cove Beach Visit",
+          "description": "Enjoy beach activities and water sports near Port Blair.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Sea Walking Experience",
+          "description": "Walk underwater wearing a special helmet and see marine life up close.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit to Mahatma Gandhi Marine National Park",
+          "description": "Explore islands, coral reefs, and marine biodiversity with glass-bottom boat rides.",
+          "duration": "3 hours"
+        },
+        {
+          "name": "Ross Island Exploration",
+          "description": "Visit ruins of British colonial buildings surrounded by lush greenery and deer.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Chidiya Tapu Bird Watching",
+          "description": "Spot rare birds and enjoy sunset views at this natural reserve near Port Blair.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Kayaking in Mangroves",
+          "description": "Paddle through serene mangrove forests and observe local wildlife.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Explore Limestone Caves at Baratang Island",
+          "description": "Take a boat trip and visit unique limestone caves in a scenic setting.",
+          "duration": "3 hours"
+        },
+        {
+          "name": "Visit to Chatham Saw Mill",
+          "description": "See one of Asia’s oldest and largest sawmills with historic machinery.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Fishing Trip",
+          "description": "Enjoy a fishing expedition in the coastal waters with local fishermen.",
+          "duration": "3 hours"
+        },
+        {
+          "name": "Visit to Anthropological Museum",
+          "description": "Learn about the indigenous tribes and culture of the Andaman Islands.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Jet Skiing and Water Sports",
+          "description": "Try exciting water sports activities available on various beaches.",
+          "duration": "2 hours"
+        }
+      ]
+    },
+    {
+      "name": "Puducherry",
+      "type": "Cultural & Beach",
+      "location": "Puducherry, Union Territory",
+      "activities": [
+        {
+          "name": "Promenade Beach Walk",
+          "description": "Stroll along the scenic promenade by the Bay of Bengal, lined with statues and cafes.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit to Aurobindo Ashram",
+          "description": "Explore the spiritual center founded by Sri Aurobindo and The Mother.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Explore French Quarter",
+          "description": "Walk through charming streets with colonial architecture, boutiques, and eateries.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Paradise Beach Excursion",
+          "description": "Take a boat ride to this pristine beach with golden sands and clear waters.",
+          "duration": "3 hours"
+        },
+        {
+          "name": "Visit to Botanical Gardens",
+          "description": "Enjoy beautifully landscaped gardens with exotic plant species and fountains.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Cycling Tour of the City",
+          "description": "Rent a bicycle and explore the quiet, scenic lanes of Puducherry.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Shopping at Goubert Market",
+          "description": "Buy local handicrafts, textiles, and fresh produce from this vibrant market.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Visit to Basilica of the Sacred Heart of Jesus",
+          "description": "Admire the Gothic architecture and beautiful stained glass windows of this church.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Sunset at Rock Beach",
+          "description": "Enjoy the cool sea breeze and watch the sun set over the horizon.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "French Cuisine Dining Experience",
+          "description": "Savor authentic French dishes at cozy cafes and restaurants.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit to Sri Aurobindo Handmade Paper Factory",
+          "description": "Learn about traditional paper-making techniques and shop eco-friendly products.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Light and Sound Show at Fort",
+          "description": "Experience the history of Puducherry through an engaging audio-visual show.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Kayaking at Backwaters",
+          "description": "Explore the peaceful backwaters of Puducherry by kayak.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit to Serenity Beach",
+          "description": "Relax on the quiet beach and watch surfers in action.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Art Galleries and Cafes Tour",
+          "description": "Explore local art galleries and enjoy coffee at bohemian cafes.",
+          "duration": "2 hours"
+        }
+      ]
+    },
+    {
+      "name": "Hampi",
+      "type": "Historical & Adventure",
+      "location": "Hampi, Karnataka",
+      "activities": [
+        {
+          "name": "Explore Virupaksha Temple",
+          "description": "Visit the ancient temple dedicated to Lord Shiva with beautiful architecture and a bustling market nearby.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Visit Vittala Temple and Stone Chariot",
+          "description": "Admire the iconic stone chariot and musical pillars in this UNESCO World Heritage site.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Trek to Matanga Hill",
+          "description": "Climb the hill to catch breathtaking sunrise or sunset views over Hampi’s ruins.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Coracle Ride on Tungabhadra River",
+          "description": "Experience a traditional round boat ride in the river for a unique view of the landscape.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Explore Queen’s Bath",
+          "description": "Visit the royal bathhouse complex with impressive Indo-Islamic architecture.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Hampi Bazaar",
+          "description": "Shop local handicrafts, souvenirs, and textiles at the lively street market.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore the Royal Enclosure",
+          "description": "Discover palaces, audience halls, and temples used by Vijayanagara kings.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit Achyutaraya Temple",
+          "description": "See the vast temple complex with beautifully carved pillars and sculptures.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Enjoy Bouldering and Rock Climbing",
+          "description": "Try rock climbing on Hampi’s unique granite boulders, popular among adventure seekers.",
+          "duration": "3 hours"
+        },
+        {
+          "name": "Visit Elephant Stables",
+          "description": "Check out the grand structure where royal elephants were housed.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Sunset at Hemakuta Hill",
+          "description": "Watch the sun set over the ruins and landscape from this popular viewpoint.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit the Underground Shiva Temple",
+          "description": "Explore this ancient, lesser-known subterranean temple with a unique design.",
+          "duration": "45 minutes"
+        },
+        {
+          "name": "Photography at Lotus Mahal",
+          "description": "Admire the Indo-Islamic palace architecture, especially beautiful at sunrise or sunset.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend a Cultural Dance Performance",
+          "description": "Watch traditional dance and music performances organized occasionally near the ruins.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit the Archaeological Museum",
+          "description": "Learn about Hampi’s history and see artifacts recovered from the site.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Jaisalmer",
+      "type": "Desert & Heritage",
+      "location": "Jaisalmer, Rajasthan",
+      "activities": [
+        {
+          "name": "Explore Jaisalmer Fort",
+          "description": "Visit the massive sandstone fort housing shops, temples, and residences.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Camel Safari in the Sam Sand Dunes",
+          "description": "Experience a camel ride through the golden desert dunes at sunset.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Visit Patwon Ki Haveli",
+          "description": "Explore the largest haveli in Jaisalmer with intricate carvings and architecture.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Desert Camping and Cultural Evening",
+          "description": "Spend a night camping in the desert with traditional Rajasthani folk music and dance.",
+          "duration": "Overnight"
+        },
+        {
+          "name": "Visit Gadisar Lake",
+          "description": "Enjoy boating and bird watching around this historic water reservoir.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Explore Jain Temples inside Jaisalmer Fort",
+          "description": "Visit ornately carved Jain temples dating back to the 12th century.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Shopping at Sadar Bazaar",
+          "description": "Buy traditional textiles, jewelry, and handicrafts in the bustling market.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Visit Salim Singh Ki Haveli",
+          "description": "Admire the distinctive architecture with its curved roof and stone windows.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Bada Bagh",
+          "description": "See the royal cenotaphs set against a desert backdrop.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Desert National Park",
+          "description": "Go on a wildlife safari to spot rare desert animals and birds.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Try Local Rajasthani Cuisine",
+          "description": "Taste dishes like dal bati churma, gatte ki sabzi, and ker sangri.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Photography at Sunset Point",
+          "description": "Capture stunning views of the fort and desert at sunset.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Desert Cultural Museum",
+          "description": "Learn about desert life, culture, and crafts.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Watch Puppet Shows",
+          "description": "Enjoy traditional Rajasthani puppet performances in the evening.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Hot Air Balloon Ride (seasonal)",
+          "description": "Get a bird’s eye view of the desert landscape from a hot air balloon.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Mysuru",
+      "type": "Royal Heritage & Culture",
+      "location": "Mysuru, Karnataka",
+      "activities": [
+        {
+          "name": "Visit Mysore Palace",
+          "description": "Explore the grand palace known for its intricate architecture and royal artifacts.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Walk in Brindavan Gardens",
+          "description": "Enjoy the beautifully landscaped gardens with musical fountain shows at night.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit Chamundi Hill and Temple",
+          "description": "Climb or drive to the hilltop temple with panoramic views of Mysore city.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Explore Mysore Zoo (Sri Chamarajendra Zoological Gardens)",
+          "description": "Visit one of India’s oldest and well-maintained zoos housing rare species.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Stroll at Karanji Lake",
+          "description": "Boating, bird watching, and enjoying the peaceful lake surroundings.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Visit Jaganmohan Palace and Art Gallery",
+          "description": "See traditional and modern Indian art in a historic palace setting.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Shopping for Mysore Silk",
+          "description": "Buy famous Mysore silk sarees and textiles at local markets.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore St. Philomena’s Cathedral",
+          "description": "Visit the beautiful neo-Gothic church with stained glass windows.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Dasara Festival Celebrations (seasonal)",
+          "description": "Experience the grand royal festival with processions, cultural events, and light displays.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Visit Rail Museum",
+          "description": "Explore vintage trains and learn about Indian rail history.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Ranganathittu Bird Sanctuary",
+          "description": "Go bird watching and boat rides in this famous bird sanctuary near Mysore.",
+          "duration": "3 hours"
+        },
+        {
+          "name": "Visit Lalitha Mahal Palace",
+          "description": "Tour the majestic palace now converted into a heritage hotel.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Enjoy Mysore Pak Sweet Sampling",
+          "description": "Try the famous Mysore sweet, Mysore Pak, from local sweet shops.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Evening Light Show at Mysore Palace",
+          "description": "Watch the palace lit up beautifully during evening hours.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Try Local Cuisine at Devaraja Market",
+          "description": "Taste traditional Karnataka dishes and shop for spices and produce.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Ranthambore National Park",
+      "type": "Wildlife & Nature",
+      "location": "Ranthambore, Rajasthan",
+      "activities": [
+        {
+          "name": "Morning Safari",
+          "description": "Go on a jeep safari early morning to spot tigers, leopards, and other wildlife.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Evening Safari",
+          "description": "Experience the park’s wildlife during late afternoon, a good time for photography.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Visit Ranthambore Fort",
+          "description": "Explore the historic fort inside the park offering panoramic views and ancient ruins.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Bird Watching",
+          "description": "Spot rare and migratory bird species in their natural habitat.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit Trinetra Ganesh Temple",
+          "description": "See this ancient temple located inside the Ranthambore Fort complex.",
+          "duration": "45 minutes"
+        },
+        {
+          "name": "Explore Surwal Lake",
+          "description": "Relax near this lake within the park, ideal for bird watching and picnics.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Nature Walks",
+          "description": "Take guided nature walks to learn about flora and smaller wildlife.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Photography Safari",
+          "description": "Join specialized photography tours focusing on capturing wildlife moments.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Visit Raj Bagh Ruins",
+          "description": "Explore the remains of a historical palace inside the park.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Camping Near the Park",
+          "description": "Stay overnight at eco-friendly camps for a rustic wilderness experience.",
+          "duration": "Overnight"
+        },
+        {
+          "name": "Interact with Local Tribes",
+          "description": "Learn about the lifestyle and culture of local tribal communities.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Sawai Madhopur Town",
+          "description": "Explore the nearby town’s markets, temples, and cuisine.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Learn about Tiger Conservation",
+          "description": "Visit information centers to understand conservation efforts and challenges.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Padam Talao Lake",
+          "description": "Spot crocodiles and water birds at this large water body in the park.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Sunset Viewing Point",
+          "description": "Enjoy the sunset over the forest and hills from designated viewpoints.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Khajuraho",
+      "type": "Heritage & Culture",
+      "location": "Khajuraho, Madhya Pradesh",
+      "activities": [
+        {
+          "name": "Explore Western Group of Temples",
+          "description": "Visit famous temples with intricate erotic carvings and stunning architecture.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit Kandariya Mahadev Temple",
+          "description": "See the largest and most ornate temple dedicated to Lord Shiva.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Eastern Group of Temples",
+          "description": "Visit Jain temples known for their unique sculptures and design.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Attend Sound and Light Show",
+          "description": "Watch the evening show narrating the history and significance of Khajuraho temples.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Archaeological Museum",
+          "description": "See artifacts and learn more about the temple complex’s history.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Take a Heritage Walk",
+          "description": "Join guided walks to explore temples and local culture in detail.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit Chaturbhuj Temple",
+          "description": "Admire this large temple dedicated to Lord Vishnu.",
+          "duration": "45 minutes"
+        },
+        {
+          "name": "Explore Duladeo Temple",
+          "description": "Visit a temple dedicated to Lord Shiva with rich carvings.",
+          "duration": "45 minutes"
+        },
+        {
+          "name": "Visit Lakshmana Temple",
+          "description": "One of the earliest temples with exquisite architecture and carvings.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Photography of Sculptures",
+          "description": "Capture detailed carvings showcasing mythology, love, and life.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Visit Raneh Falls",
+          "description": "Take a day trip to this beautiful waterfall and canyon made of volcanic rocks.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Boat Ride at Ken River",
+          "description": "Enjoy a peaceful boat ride surrounded by nature and wildlife.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Local Handicrafts Market",
+          "description": "Buy traditional Madhya Pradesh crafts and souvenirs.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Taste Local Cuisine",
+          "description": "Try local delicacies at restaurants and street vendors.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Jain Sculpture Museum",
+          "description": "Learn about Jain art and history through sculptures and exhibits.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Sikkim",
+      "type": "Hill Station & Spiritual",
+      "location": "Gangtok, Sikkim",
+      "activities": [
+        {
+          "name": "Visit Rumtek Monastery",
+          "description": "Explore one of the largest and most important Buddhist monasteries in Sikkim.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Walk along MG Road",
+          "description": "Shop, dine, and enjoy the vibrant street life in Gangtok’s main market area.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Enchey Monastery",
+          "description": "See this scenic monastery perched on a hilltop with panoramic views.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Tsongmo Lake (Changu Lake)",
+          "description": "Visit the beautiful glacial lake surrounded by snow-capped mountains.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit Namgyal Institute of Tibetology",
+          "description": "Learn about Tibetan culture, religion, and history in this museum.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Take a Cable Car Ride",
+          "description": "Enjoy aerial views of Gangtok and the surrounding mountains.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Explore Banjhakri Falls",
+          "description": "Visit the scenic waterfall and nearby energy park.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Visit Ganesh Tok and Hanuman Tok",
+          "description": "Visit temples offering spectacular views of Gangtok and the Himalayas.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Try Local Sikkimese Cuisine",
+          "description": "Taste dishes like momos, thukpa, and gundruk at local eateries.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Tashi View Point",
+          "description": "Catch panoramic views of Mt. Kanchenjunga and the valleys below.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Flower Exhibition Centre",
+          "description": "See a beautiful collection of orchids and local flowers.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Trek to Ganesh Tok",
+          "description": "Take a short trek to this hilltop shrine with serene surroundings.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend a Local Festival",
+          "description": "Experience vibrant festivals like Losar or Saga Dawa if visiting at the right time.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Explore Namgyal Cave",
+          "description": "Visit this meditation cave associated with the 9th Karmapa Lama.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Do Drul Chorten Stupa",
+          "description": "See one of the largest stupas in Sikkim surrounded by 108 prayer wheels.",
+          "duration": "45 minutes"
+        }
+      ]
+    },
+    {
+      "name": "Kodaikanal",
+      "type": "Hill Station & Nature",
+      "location": "Kodaikanal, Tamil Nadu",
+      "activities": [
+        {
+          "name": "Visit Kodaikanal Lake",
+          "description": "Enjoy boating or cycling around this star-shaped lake.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Explore Coaker's Walk",
+          "description": "Take a scenic stroll offering panoramic views of valleys and plains.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Bryant Park",
+          "description": "Relax among colorful flower beds and exotic plants.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Trek to Dolphin’s Nose",
+          "description": "Hike to a rock outcrop with breathtaking views of cliffs and waterfalls.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "See Silver Cascade Falls",
+          "description": "Visit this beautiful waterfall located on the way to Kodaikanal.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Explore Pine Forest",
+          "description": "Walk through tall pine trees and enjoy nature photography.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Guna Caves (Devil’s Kitchen)",
+          "description": "Explore narrow caves surrounded by sharp rocks and misty cliffs.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Visit Kurinji Andavar Temple",
+          "description": "See this temple dedicated to Lord Murugan, surrounded by Kurinji flowers.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Try Local Cuisine",
+          "description": "Taste homemade chocolates and South Indian delicacies.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Shembaganur Museum of Natural History",
+          "description": "Learn about local flora, fauna, and geology.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Horse Riding at Kodaikanal Lake",
+          "description": "Enjoy pony rides around the lake and nearby areas.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Trek to Bear Shola Falls",
+          "description": "Short trek to a serene waterfall nestled in a forest area.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Photography at Pillar Rocks",
+          "description": "Capture the famous three giant rock pillars overlooking the valley.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore the Local Market",
+          "description": "Shop for handmade crafts, spices, and souvenirs.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Pinewood Dental and Medical Camp",
+          "description": "Optional wellness and relaxation center visit for health treatments.",
+          "duration": "1-2 hours"
+        }
+      ]
+    },
+    {
+      "name": "Rann of Kutch",
+      "type": "Desert & Culture",
+      "location": "Kutch, Gujarat",
+      "activities": [
+        {
+          "name": "Visit Great Rann of Kutch",
+          "description": "Experience the vast white salt desert, especially stunning at sunset.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Attend Rann Utsav Festival",
+          "description": "Participate in cultural performances, local crafts, and food during this seasonal festival.",
+          "duration": "Varies (days to weeks)"
+        },
+        {
+          "name": "Visit Kalo Dungar (Black Hill)",
+          "description": "See the highest point in Kutch with views over the Rann and Pakistan border.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Explore Hodka Village",
+          "description": "Experience traditional Kutchi village life and handicrafts.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit Dholavira Archaeological Site",
+          "description": "Explore ruins of one of the largest Harappan civilization sites.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Visit Mandvi Beach",
+          "description": "Relax on this pristine beach with nearby Vijay Vilas Palace.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Explore Vijay Vilas Palace",
+          "description": "Tour this summer palace with beautiful architecture and gardens.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "See Flamingos and Bird Watching",
+          "description": "Visit wetlands to spot flamingos and other migratory birds.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Explore Banni Grasslands",
+          "description": "Discover the unique ecosystem and wildlife of this grassland area.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit Chhatra Village",
+          "description": "Experience local crafts, embroidery, and rural life.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Stay in Traditional Bhunga Houses",
+          "description": "Experience authentic Kutchi architecture and lifestyle.",
+          "duration": "Overnight"
+        },
+        {
+          "name": "Photography of Salt Desert",
+          "description": "Capture the surreal white landscapes at sunrise or sunset.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Explore Narayan Sarovar",
+          "description": "Visit this sacred lake and temple complex.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Koteshwar Temple",
+          "description": "See this ancient temple near the Arabian Sea.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Enjoy Local Kutchi Cuisine",
+          "description": "Taste traditional dishes like Kutchi Dabeli and sweets.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Tawang",
+      "type": "Himalayan Town & Spiritual",
+      "location": "Tawang, Arunachal Pradesh",
+      "activities": [
+        {
+          "name": "Visit Tawang Monastery",
+          "description": "Explore one of the largest Buddhist monasteries in India.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Attend Monastic Festivals",
+          "description": "Witness colorful festivals like the Torgya festival with traditional dances.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Visit Sela Pass",
+          "description": "Drive or trek through this scenic mountain pass with snow views.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit Madhuri Lake (Sangetsar Lake)",
+          "description": "Enjoy the pristine beauty of this high-altitude lake surrounded by mountains.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Explore Bum La Pass",
+          "description": "Visit this border pass near China with spectacular views (permit required).",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Trek to Gorichen Peak Base Camp",
+          "description": "Take a challenging trek to the base of the highest peak in Arunachal Pradesh.",
+          "duration": "Multiple days"
+        },
+        {
+          "name": "Visit War Memorial",
+          "description": "Pay respects at the memorial dedicated to soldiers of the 1962 Sino-Indian war.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Explore Traditional Monpa Villages",
+          "description": "Experience local culture, architecture, and handicrafts.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit Shonga-tser Lake",
+          "description": "A scenic lake near Tawang popular for its tranquility.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Urgelling Monastery",
+          "description": "The birthplace of the 6th Dalai Lama with significant religious importance.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Photography of Himalayan Landscapes",
+          "description": "Capture stunning mountain views, prayer flags, and monasteries.",
+          "duration": "Flexible"
+        },
+        {
+          "name": "Try Local Monpa Cuisine",
+          "description": "Sample traditional dishes such as Thukpa and Momos.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Sangestar Lake",
+          "description": "Also known as Madhuri Lake, a serene spot for boating and picnics.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Explore Tawang Market",
+          "description": "Shop for local handicrafts, souvenirs, and traditional clothes.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Trek to Tawang War Memorial",
+          "description": "Short trek offering views and historical significance.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Coorg",
+      "type": "Hill Station & Nature",
+      "location": "Coorg, Karnataka",
+      "activities": [
+        {
+          "name": "Visit Abbey Falls",
+          "description": "Enjoy the scenic waterfall surrounded by lush coffee plantations.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Explore Dubare Elephant Camp",
+          "description": "Interact with elephants, watch them bathe and feed them.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Trek to Tadiandamol Peak",
+          "description": "Hike to the highest peak in Coorg offering panoramic views.",
+          "duration": "5-6 hours"
+        },
+        {
+          "name": "Visit Raja’s Seat",
+          "description": "Watch sunset and enjoy views of the valley and hills.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Explore Coffee Plantations",
+          "description": "Take guided tours to learn about coffee growing and processing.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit Talakaveri",
+          "description": "See the source of the river Cauvery and the ancient temple nearby.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Walk through Nagarhole National Park",
+          "description": "Go on a wildlife safari to spot elephants, tigers, and deer.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Visit Omkareshwara Temple",
+          "description": "Explore this unique temple blending Islamic and Gothic architecture.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Try Coorgi Cuisine",
+          "description": "Taste traditional dishes like Pandi Curry (pork curry) and Akki Roti.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Bylekuppe Tibetan Settlement",
+          "description": "Explore the large Tibetan refugee settlement and Namdroling Monastery.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Go River Rafting at Barapole River",
+          "description": "Experience thrilling white water rafting (seasonal).",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit Madikeri Fort",
+          "description": "Tour this historical fort and museum in the heart of Coorg.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Enjoy Cauvery Nisargadhama",
+          "description": "Relax at this scenic island with bamboo groves, deer park, and boating.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Trek to Brahmagiri Hill",
+          "description": "A moderate trek with beautiful views and wildlife sightings.",
+          "duration": "4-5 hours"
+        },
+        {
+          "name": "Visit Iruppu Falls",
+          "description": "Visit this picturesque waterfall and nearby Rameshwara Temple.",
+          "duration": "2 hours"
+        }
+      ]
+    },
+    {
+      "name": "Mahabalipuram",
+      "type": "Historical & Coastal",
+      "location": "Mahabalipuram, Tamil Nadu",
+      "activities": [
+        {
+          "name": "Visit Shore Temple",
+          "description": "Explore the UNESCO World Heritage Site temple overlooking the sea.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Explore Pancha Rathas (Five Rathas)",
+          "description": "See monolithic rock-cut temples shaped like chariots.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Arjuna’s Penance (Descent of the Ganges)",
+          "description": "Admire the giant open-air rock relief depicting mythological stories.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Relax at Mahabalipuram Beach",
+          "description": "Enjoy the coastal vibe, swimming, and beach activities.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Explore Krishna’s Butterball",
+          "description": "See the famous giant balancing rock on a slope.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit Mahabalipuram Lighthouse",
+          "description": "Climb up for panoramic views of the town and coastline.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit the Mahabalipuram Sculptures Museum",
+          "description": "Learn about the Pallava dynasty and ancient art.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Cave Temples",
+          "description": "Visit various rock-cut cave temples such as Varaha Cave and Mahishasuramardini Cave.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Try Local Seafood",
+          "description": "Taste fresh seafood delicacies at local restaurants.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Tiger Cave",
+          "description": "Explore this monolithic rock-cut temple with tiger carvings.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Go for Whale Watching",
+          "description": "Take a boat tour from nearby places during the season.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Shop for Handicrafts and Sculptures",
+          "description": "Buy traditional stone carvings and souvenirs.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Light and Sound Show",
+          "description": "Experience the history of Mahabalipuram through an evening show.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit the Crocodile Bank",
+          "description": "See crocodiles and other reptiles at this reptile zoo nearby.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit the DakshinaChitra Museum",
+          "description": "Explore the cultural museum showcasing South Indian heritage (nearby Chennai).",
+          "duration": "2-3 hours"
+        }
+      ]
+    },
+    {
+      "name": "Varanasi",
+      "type": "Devotional & Cultural",
+      "location": "Varanasi, Uttar Pradesh",
+      "activities": [
+        {
+          "name": "Morning Boat Ride on Ganges",
+          "description": "Experience the spiritual ambiance with a sunrise boat ride along the ghats.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Kashi Vishwanath Temple Visit",
+          "description": "Pay homage at one of the most sacred Hindu temples dedicated to Lord Shiva.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Breakfast at Kachori Gali",
+          "description": "Enjoy traditional Varanasi breakfast items like kachori and jalebi.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Sarnath Excursion",
+          "description": "Visit the site where Buddha delivered his first sermon.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Evening Ganga Aarti at Dashashwamedh Ghat",
+          "description": "Witness the mesmerizing ritual with chants, lamps, and music.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Assi Ghat Morning Yoga Session",
+          "description": "Participate in a yoga session by the river to start your day.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit to Tulsi Manas Temple",
+          "description": "Explore the temple dedicated to Lord Rama with verses inscribed on walls.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Banaras Hindu University Tour",
+          "description": "Walk through the campus and visit the Bharat Kala Bhavan Museum.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Lunch at Baati Chokha",
+          "description": "Relish traditional Bhojpuri cuisine in a rustic ambiance.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Ramnagar Fort Visit",
+          "description": "Explore the 18th-century fort and its museum showcasing royal artifacts.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Walk through Old City Alleys",
+          "description": "Discover hidden temples, local markets, and the vibrant life of Varanasi.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Visit to Bharat Mata Temple",
+          "description": "See the unique temple dedicated to Mother India with a relief map of India.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Lunch at Lotus Lounge",
+          "description": "Enjoy a fusion of Indian and continental dishes with a river view.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Shopping at Godowlia Market",
+          "description": "Shop for Banarasi silk, handicrafts, and souvenirs.",
+          "duration": "3 hours"
+        },
+        {
+          "name": "Attend Classical Music Concert",
+          "description": "Experience the rich musical heritage with a live performance.",
+          "duration": "1.5 hours"
+        }
+      ]
+    },
+    {
+      "name": "Tirupati (Tirumala)",
+      "type": "Pilgrimage",
+      "location": "Tirupati, Andhra Pradesh",
+      "activities": [
+        {
+          "name": "Tirumala Venkateswara Temple Darshan",
+          "description": "Visit the famous temple dedicated to Lord Venkateswara with its elaborate rituals.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Visit Sri Padmavathi Ammavari Temple",
+          "description": "Explore the temple dedicated to Goddess Padmavathi in Tiruchanur.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Tirupati Balaji Museum",
+          "description": "Learn about the history and significance of the temple and Tirupati culture.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Laddu Prasadam Tasting",
+          "description": "Try the famous Tirupati Laddu offered as prasadam.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Hiking the Alipiri Steps",
+          "description": "Trek the traditional footpath (around 3,500 steps) to Tirumala temple.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Visit Akasa Ganga Waterfall",
+          "description": "Enjoy the serene waterfall near Tirumala temple complex.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Sri Venkateswara National Park Trek",
+          "description": "Trek in the park with rich biodiversity and scenic trails.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit Silathoranam (Natural Rock Arch)",
+          "description": "See this natural geological formation near the temple.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Attend Temple Aarti",
+          "description": "Experience the evening aarti at Tirumala temple with devotional songs.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Kapila Theertham Waterfall",
+          "description": "Visit the sacred waterfall and temple dedicated to Lord Shiva.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Visit Papavinasanam Theertham",
+          "description": "Take a holy dip in the sacred waterfall believed to wash away sins.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Shopping for Temple Souvenirs",
+          "description": "Buy religious artifacts, books, and souvenirs around the temple town.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Enjoy Andhra Cuisine",
+          "description": "Taste traditional Andhra meals and snacks in local eateries.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Sri Venkateswara Zoological Park",
+          "description": "Explore the wildlife park located near Tirumala.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Participate in Seva Activities",
+          "description": "Engage in voluntary services offered for pilgrims and temple maintenance.",
+          "duration": "Varies"
+        }
+      ]
+    },
+    {
+      "name": "Vaishno Devi",
+      "type": "Pilgrimage",
+      "location": "Katra, Jammu & Kashmir",
+      "activities": [
+        {
+          "name": "Vaishno Devi Shrine Trek",
+          "description": "Pilgrimage trek of about 12 km to the holy cave shrine.",
+          "duration": "5-7 hours"
+        },
+        {
+          "name": "Visit Bhawan Mandir",
+          "description": "Darshan at the main shrine inside the Vaishno Devi cave.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Helicopter Ride to Shrine",
+          "description": "Take a helicopter ride for quick access to the shrine.",
+          "duration": "15-20 minutes"
+        },
+        {
+          "name": "Visit Bhairon Ghati",
+          "description": "Pay respects at the shrine of Bhairon Nath on the way to Vaishno Devi.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Adhkuwari",
+          "description": "See the confluence of rivers where the trek splits towards Bhairon Ghati and Vaishno Devi cave.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Attend Aarti at Shrine",
+          "description": "Experience the devotional aarti in the temple.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Katra Town",
+          "description": "Visit local markets and temples in Katra town before or after the trek.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit Sanjichhat",
+          "description": "A resting point on the trek with stunning views of the valley.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Enjoy Local Cuisine",
+          "description": "Taste traditional Kashmiri and North Indian food in Katra.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Holy Cave Museum",
+          "description": "Learn about the history and legends of Vaishno Devi at the museum in Katra.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Take a Night Trek",
+          "description": "Experience the spiritual ambiance by trekking at night with special arrangements.",
+          "duration": "5-7 hours"
+        },
+        {
+          "name": "Visit Mata Panjtarni",
+          "description": "See the holy water spring on the trek route, considered sacred.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Attend Spiritual Discourses",
+          "description": "Participate in religious talks and bhajans held near the shrine.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Enjoy Scenic Views of Trikuta Hills",
+          "description": "Appreciate the natural beauty and mountains during the trek.",
+          "duration": "Throughout trek"
+        },
+        {
+          "name": "Shop for Religious Souvenirs",
+          "description": "Buy prayer items, souvenirs, and religious books in Katra market.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Amritsar",
+      "type": "Religious & Cultural",
+      "location": "Amritsar, Punjab",
+      "activities": [
+        {
+          "name": "Visit Golden Temple (Harmandir Sahib)",
+          "description": "Explore the iconic Sikh shrine and experience its serene spiritual ambiance.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Attend Langar at Golden Temple",
+          "description": "Participate in the community kitchen offering free meals to thousands daily.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Jallianwala Bagh Visit",
+          "description": "Explore the historic site of the 1919 massacre and its memorial.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Wagah Border Ceremony",
+          "description": "Witness the elaborate flag lowering ceremony at the India-Pakistan border.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Partition Museum",
+          "description": "Learn about the history and impact of India’s partition in 1947.",
+          "duration": "1.5-2 hours"
+        },
+        {
+          "name": "Walk Around Old City Markets",
+          "description": "Shop for traditional Punjabi crafts, Phulkari embroidery, and local street food.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit Durgiana Temple",
+          "description": "Explore the Hindu temple resembling the Golden Temple’s architecture.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Taste Amritsari Kulcha",
+          "description": "Enjoy the famous stuffed bread served with butter and chutney.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Maharaja Ranjit Singh Museum",
+          "description": "Discover the life and times of the Sikh ruler Maharaja Ranjit Singh.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Gobindgarh Fort",
+          "description": "Tour the historic fort and enjoy cultural performances and light shows.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Attend Gurudwara Baba Atal Sahib",
+          "description": "See the unique nine-story tower near Golden Temple.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit Ram Bagh Gardens",
+          "description": "Relax in the historical garden laid by Maharaja Ranjit Singh.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Try Traditional Punjabi Food",
+          "description": "Savor dishes like sarson ka saag and makki di roti at local dhabas.",
+          "duration": "1.5 hours"
+        },
+        {
+          "name": "Photography at Golden Temple at Night",
+          "description": "Capture the temple beautifully lit up after sunset.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Kirtan Sessions",
+          "description": "Listen to devotional hymns sung inside the Golden Temple.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Shirdi",
+      "type": "Pilgrimage",
+      "location": "Shirdi, Maharashtra",
+      "activities": [
+        {
+          "name": "Visit Sai Baba Samadhi Mandir",
+          "description": "Pay respects at the final resting place of Sai Baba.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Explore Dwarkamai Mosque",
+          "description": "Visit the mosque where Sai Baba lived for many years.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Sai Baba Aarti",
+          "description": "Participate in morning, afternoon, or evening aarti rituals.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Chavadi",
+          "description": "See the place where Sai Baba used to stay every alternate night.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Shopping at Shirdi Market",
+          "description": "Buy religious souvenirs, Sai Baba pictures, and local sweets.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Gurusthan",
+          "description": "Explore the sacred site where Sai Baba was first seen as a child.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Explore Kakad Aarti in Early Morning",
+          "description": "Attend the pre-dawn aarti in the temple complex.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Enjoy Prasad Distribution",
+          "description": "Receive and partake in the prasad (holy offering) distributed in the temple.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Relax in Shirdi Sai Heritage Village",
+          "description": "Experience the rural lifestyle and traditions of Maharashtra.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Wet N Joy Water Park",
+          "description": "Enjoy a fun-filled day at the nearby amusement park.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Dine on Maharashtrian Thali",
+          "description": "Taste traditional meals at local restaurants.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Evening Bhajan Sessions",
+          "description": "Listen to devotional music and singing in the temple premises.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Take Part in Spiritual Workshops",
+          "description": "Engage in meditation and spiritual learning sessions.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Visit Sai Baba Museum",
+          "description": "Learn about Sai Baba’s life and miracles through exhibits.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Nearby Temples",
+          "description": "Visit other temples like Shani Shingnapur located nearby.",
+          "duration": "2-3 hours"
+        }
+      ]
+    },
+    {
+      "name": "Rameswaram",
+      "type": "Religious & Cultural",
+      "location": "Rameswaram, Tamil Nadu",
+      "activities": [
+        {
+          "name": "Visit Ramanathaswamy Temple",
+          "description": "Explore the famous temple known for its long corridors and sacred significance.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Take Holy Dip in Agni Theertham",
+          "description": "Bath in the sacred sea water believed to cleanse sins.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Dhanushkodi Beach",
+          "description": "Explore the ghost town and scenic beach at the tip of Rameswaram.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Explore Annai Indira Gandhi Road Bridge",
+          "description": "Walk or drive across the bridge connecting Rameswaram to mainland India.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit Five Faced Hanuman Temple",
+          "description": "See the unique temple dedicated to Panchamukhi Hanuman.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Gandhamadhana Parvatham",
+          "description": "Climb the hill with panoramic views and sacred ponds.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Kothandaramaswamy Temple",
+          "description": "Explore the temple built in memory of Lord Rama’s vanara army.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Enjoy Water Sports at Rameswaram Beach",
+          "description": "Try activities like snorkeling, boating, and fishing.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit Rameswaram National Park",
+          "description": "Explore the park’s diverse flora and fauna.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Take Part in Temple Pooja Rituals",
+          "description": "Observe or participate in daily worship ceremonies.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Nearby Coral Reefs",
+          "description": "Visit marine life centers and explore coral reefs.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit Panchmukhi Anjaneya Temple",
+          "description": "Pay respects at the five-faced Hanuman temple near the town.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Taste Local Tamil Cuisine",
+          "description": "Enjoy South Indian dishes at local eateries.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore the Market for Handicrafts",
+          "description": "Shop for local handicrafts and souvenirs.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Special Festivals",
+          "description": "Experience festivals like Maha Shivratri with grand celebrations.",
+          "duration": "Varies"
+        }
+      ]
+    },
+    {
+      "name": "Dwarka",
+      "type": "Religious & Cultural",
+      "location": "Dwarka, Gujarat",
+      "activities": [
+        {
+          "name": "Visit Dwarkadhish Temple",
+          "description": "Explore the ancient temple dedicated to Lord Krishna, the main attraction in Dwarka.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Attend Evening Aarti at Dwarkadhish Temple",
+          "description": "Participate in the vibrant and devotional aarti ceremony at sunset.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Rukmini Devi Temple",
+          "description": "Visit the temple dedicated to Lord Krishna’s consort, Rukmini.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Bet Dwarka Island",
+          "description": "Take a boat ride to the sacred island believed to be Lord Krishna's original kingdom.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Explore Nageshwar Jyotirlinga Temple",
+          "description": "Visit one of the 12 Jyotirlinga shrines dedicated to Lord Shiva near Dwarka.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Enjoy Boat Ride at Gomti River",
+          "description": "Relax on a boat ride along the Gomti river with scenic views.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Dwarka Lighthouse",
+          "description": "Climb the lighthouse for panoramic views of the Arabian Sea and city.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Explore Rukmini Beach",
+          "description": "Relax at the beach with views of the Arabian Sea and fishing boats.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Shop for Local Handicrafts",
+          "description": "Buy traditional Gujarati embroidery, textiles, and souvenirs in local markets.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Gomti Ghat",
+          "description": "Witness pilgrims taking holy dips at the sacred river ghat.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Sudama Setu Bridge",
+          "description": "Walk or take photos of this beautiful bridge connecting to the mainland.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Attend Janmashtami Festival",
+          "description": "Experience the grand celebration of Lord Krishna’s birth with festivities and cultural programs.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Taste Gujarati Thali",
+          "description": "Enjoy traditional Gujarati cuisine at local eateries.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Beyt Dwarka Museum",
+          "description": "Learn about the history and archaeology related to Dwarka.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Gopi Talav",
+          "description": "Visit the ancient pond associated with Lord Krishna’s stories.",
+          "duration": "30 minutes"
+        }
+      ]
+    },
+    {
+      "name": "Puri Jagannath Temple",
+      "type": "Religious & Cultural",
+      "location": "Puri, Odisha",
+      "activities": [
+        {
+          "name": "Visit Jagannath Temple",
+          "description": "Explore the famous temple dedicated to Lord Jagannath, a major Hindu pilgrimage site.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Attend Rath Yatra Festival",
+          "description": "Witness the world-famous chariot festival of Lord Jagannath held annually.",
+          "duration": "Full day event (annual)"
+        },
+        {
+          "name": "Relax at Puri Beach",
+          "description": "Enjoy the serene sandy beach and sunset views.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit Gundicha Temple",
+          "description": "Visit the temple associated with the Rath Yatra festival, where the deities stay temporarily.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Loknath Temple",
+          "description": "Visit this historic Shiva temple near Jagannath temple.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Shop at Puri Market",
+          "description": "Buy handicrafts, Pattachitra paintings, and souvenirs.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Chilika Lake",
+          "description": "Take a day trip to Asia’s largest brackish water lagoon for bird watching and boat rides.",
+          "duration": "Full day"
+        },
+        {
+          "name": "Explore Konark Sun Temple",
+          "description": "Visit the UNESCO World Heritage site located about 35 km from Puri.",
+          "duration": "Half day"
+        },
+        {
+          "name": "Enjoy Odissi Dance Performance",
+          "description": "Watch traditional classical dance shows in the city.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Swargadwar Cremation Ground",
+          "description": "Witness the sacred cremation site located on Puri’s beach.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Try Odia Cuisine",
+          "description": "Taste traditional dishes like dalma, khicede, and sweets like rasagola.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Jagannath Museum",
+          "description": "Learn about the history and rituals of Jagannath cult.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Evening Aarti at Jagannath Temple",
+          "description": "Participate in or observe the grand evening worship ceremony.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Puri Lighthouse",
+          "description": "Visit the lighthouse for panoramic views of the Bay of Bengal.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit Baliharachandi Temple",
+          "description": "A temple near the sea famous for local myths and rituals.",
+          "duration": "30 minutes"
+        }
+      ]
+    },
+    {
+      "name": "Kedarnath",
+      "type": "Religious & Adventure",
+      "location": "Kedarnath, Uttarakhand",
+      "activities": [
+        {
+          "name": "Visit Kedarnath Temple",
+          "description": "Pay respects at the sacred Hindu temple dedicated to Lord Shiva.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Trek to Kedarnath Temple",
+          "description": "Experience the scenic and spiritual trek from Gaurikund to Kedarnath.",
+          "duration": "6-8 hours"
+        },
+        {
+          "name": "Explore Bhairavnath Temple",
+          "description": "Visit the temple dedicated to Lord Bhairava, near Kedarnath temple.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit Gandhi Sarovar",
+          "description": "See the beautiful high-altitude lake near Kedarnath.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Evening Aarti at Kedarnath Temple",
+          "description": "Participate in the spiritual aarti ceremony with chanting and rituals.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Chorabari Glacier (Icefall)",
+          "description": "Visit the source of the Mandakini river near Kedarnath.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Vasuki Tal Lake",
+          "description": "Take a trek to the serene high-altitude lake nearby.",
+          "duration": "Full day trek"
+        },
+        {
+          "name": "Explore Gaurikund",
+          "description": "Visit the base camp and hot springs where the trek begins.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Enjoy Mountain Views and Photography",
+          "description": "Capture stunning views of the Himalayas and Kedarnath peak.",
+          "duration": "Throughout the visit"
+        },
+        {
+          "name": "Visit Shankaracharya Samadhi",
+          "description": "Explore the cave where Adi Shankaracharya meditated.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Experience Local Kumaoni Cuisine",
+          "description": "Try local dishes like Bhatt ki Churdkani and Gahat Dal.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Meditation and Yoga Sessions",
+          "description": "Participate in spiritual wellness sessions in the Himalayan environment.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Attend Annual Badri-Kedar Festival",
+          "description": "Experience the cultural festival celebrating the Himalayan shrines.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Visit Sonprayag",
+          "description": "Explore this nearby confluence of rivers and trekking point.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Explore Local Handicraft Shops",
+          "description": "Buy woollens and handicrafts made by local artisans.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Badrinath",
+      "type": "Religious & Adventure",
+      "location": "Badrinath, Uttarakhand",
+      "activities": [
+        {
+          "name": "Visit Badrinath Temple",
+          "description": "Explore the famous temple dedicated to Lord Vishnu, one of the Char Dham pilgrimage sites.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Take a Holy Dip in Tapt Kund",
+          "description": "Bathed in the hot sulfur springs believed to have medicinal properties.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Explore Mana Village",
+          "description": "Visit the last Indian village near the Indo-Tibet border with traditional culture and scenic beauty.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit Vasudhara Falls",
+          "description": "Trek to the stunning 145-meter high waterfall near Badrinath.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Trek to Neelkanth Peak",
+          "description": "Experience an adventurous trek offering panoramic Himalayan views.",
+          "duration": "Full day"
+        },
+        {
+          "name": "Explore Charanpaduka",
+          "description": "Visit the rock formations believed to be the footprints of Lord Vishnu.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit Mata Murti Temple",
+          "description": "Dedicated to the mother of Lord Badrinath, located close to the main temple.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Evening Aarti at Badrinath Temple",
+          "description": "Participate in the grand ritual worship of the deity.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Bhim Pul",
+          "description": "See the natural stone bridge over the Alaknanda river associated with Bhima of the Mahabharata.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Enjoy Bird Watching",
+          "description": "Spot Himalayan birds in the region’s rich biodiversity.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Try Local Garhwali Cuisine",
+          "description": "Sample traditional dishes like Aloo ke Gutke and Kafuli.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Narad Kund",
+          "description": "Visit the sacred pond located near the temple complex.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit Vishnu Prayag",
+          "description": "Witness the confluence of Alaknanda and Dhauliganga rivers nearby.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Meditate at Scenic Spots",
+          "description": "Find peace amidst nature and spiritual ambiance.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Explore Local Markets",
+          "description": "Buy woollens, handicrafts, and souvenirs from local vendors.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Haridwar",
+      "type": "Religious & Cultural",
+      "location": "Haridwar, Uttarakhand",
+      "activities": [
+        {
+          "name": "Attend Ganga Aarti at Har Ki Pauri",
+          "description": "Experience the mesmerizing evening ritual on the banks of the Ganges.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Mansa Devi Temple",
+          "description": "Reach this hilltop temple via cable car offering panoramic views of the city.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Explore Chandi Devi Temple",
+          "description": "Visit another hilltop temple accessible by ropeway or trek.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Take a Holy Dip in the Ganges",
+          "description": "Participate in the sacred ritual at Har Ki Pauri ghat.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit Shantikunj Ashram",
+          "description": "Explore this spiritual and yoga center promoting Indian culture.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Attend Kumbh Mela (if visiting during festival)",
+          "description": "Witness the world’s largest religious gathering held every 12 years.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Explore Bharat Mata Mandir",
+          "description": "Visit this unique temple dedicated to Mother India with maps and sculptures.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Daksha Mahadev Temple",
+          "description": "Explore this temple famous for mythology related to Daksha Prajapati.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Enjoy River Rafting in Ganges (nearby Rishikesh)",
+          "description": "Experience adventure with rapids and scenic views.",
+          "duration": "Half day"
+        },
+        {
+          "name": "Explore Local Bazaars",
+          "description": "Shop for religious items, souvenirs, and street food.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Maya Devi Temple",
+          "description": "One of the Shakti Peethas dedicated to Goddess Maya.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Pawan Dham Temple",
+          "description": "Known for its beautiful glasswork and illuminated shrine.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Take Yoga Classes",
+          "description": "Join yoga and meditation sessions offered in many ashrams.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Enjoy Local Cuisine",
+          "description": "Try popular dishes like kachori, aloo puri, and sweets.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Rajaji National Park (nearby)",
+          "description": "Go for wildlife safaris and nature walks in this protected reserve.",
+          "duration": "Half day to full day"
+        }
+      ]
+    },
+    {
+      "name": "Madurai",
+      "type": "Religious & Cultural",
+      "location": "Madurai, Tamil Nadu",
+      "activities": [
+        {
+          "name": "Visit Meenakshi Amman Temple",
+          "description": "Explore the iconic temple complex with stunning Dravidian architecture.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Attend Evening Aarti at Meenakshi Temple",
+          "description": "Experience the vibrant evening worship rituals.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Thirumalai Nayakkar Palace",
+          "description": "Visit the historic palace with beautiful architecture and light show.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit Gandhi Memorial Museum",
+          "description": "Learn about Mahatma Gandhi and the Indian freedom struggle.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Explore Vandiyur Mariamman Teppakulam",
+          "description": "Visit the large temple tank famous for float festivals.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Shop at Madurai’s Local Markets",
+          "description": "Buy textiles, handicrafts, and souvenirs like jasmine flowers.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Taste Traditional Tamil Cuisine",
+          "description": "Try local delicacies like idli, dosa, and jigarthanda.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Alagar Kovil Temple",
+          "description": "Explore this ancient temple dedicated to Lord Vishnu, located 21 km from Madurai.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Explore Koodal Azhagar Temple",
+          "description": "Visit the historic Vishnu temple within Madurai city.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Float Festival (Teppam Festival)",
+          "description": "Witness the decorated deity floats on the temple tank during this annual event.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Visit Pazhamudircholai Murugan Temple",
+          "description": "Explore this scenic hill temple dedicated to Lord Murugan.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Enjoy Street Food Tour",
+          "description": "Taste popular street foods like parotta, kothu parotta, and more.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Explore Samanar Hills",
+          "description": "Visit ancient Jain caves and inscriptions on the outskirts of Madurai.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Take a Guided Heritage Walk",
+          "description": "Learn about Madurai’s rich history, culture, and architecture.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Attend Cultural Performances",
+          "description": "Watch traditional Tamil music and dance shows in the city.",
+          "duration": "1-2 hours"
+        }
+      ]
+    },
+    {
+      "name": "Kanchipuram",
+      "type": "Religious & Cultural",
+      "location": "Kanchipuram, Tamil Nadu",
+      "activities": [
+        {
+          "name": "Visit Kailasanathar Temple",
+          "description": "Explore this ancient temple known for its intricate sandstone carvings and Dravidian architecture.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit Ekambareswarar Temple",
+          "description": "One of the largest temples in Kanchipuram dedicated to Lord Shiva with a massive temple tank.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Explore Kamakshi Amman Temple",
+          "description": "Visit this famous temple dedicated to Goddess Kamakshi, one of the Shakti Peethas.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Shop for Kanchipuram Silk Sarees",
+          "description": "Browse and buy exquisite handwoven silk sarees, famous worldwide.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Varadaraja Perumal Temple",
+          "description": "Explore this beautiful Vishnu temple with remarkable architecture and carvings.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Explore the Government Museum",
+          "description": "Learn about Kanchipuram's history, culture, and art.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit the Ulagalantha Perumal Temple",
+          "description": "Famous for the gigantic deity statue of Lord Vishnu in a unique pose.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Temple Festivals",
+          "description": "Participate in vibrant local festivals like Brahmotsavam.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Visit Devarajaswami Temple",
+          "description": "Another grand temple with stunning sculptures dedicated to Lord Vishnu.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Enjoy Traditional South Indian Cuisine",
+          "description": "Taste authentic Tamil dishes like dosas, idlis, and filter coffee.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Kamakshi Amman Temple Tank",
+          "description": "Visit the sacred temple pond known for its religious significance.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Attend Spiritual Discourses",
+          "description": "Join sessions and talks on Hindu philosophy and culture.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Visit Ancient Jain Temples",
+          "description": "Explore lesser-known Jain temples showcasing religious diversity.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit the Big Tank (Temple Tank)",
+          "description": "Relax around the large temple tank, a serene spot for meditation.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Explore Local Handicraft Shops",
+          "description": "Buy brass, bronze, and stone handicrafts.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Sabarimala",
+      "type": "Religious & Pilgrimage",
+      "location": "Sabarimala, Kerala",
+      "activities": [
+        {
+          "name": "Pilgrimage to Sabarimala Temple",
+          "description": "Visit the famous hill shrine dedicated to Lord Ayyappa, one of the largest pilgrimage sites in India.",
+          "duration": "Full day"
+        },
+        {
+          "name": "Take the Trek Through Forest Path",
+          "description": "Experience the challenging trek through dense forests to reach the temple.",
+          "duration": "6-8 hours"
+        },
+        {
+          "name": "Visit Malikappuram Temple",
+          "description": "Explore the temple dedicated to Malikappurathamma near the main shrine.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend the Mandala Puja",
+          "description": "Participate in the 41-day annual Mandala festival with rituals and prayers.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Explore Pamba River",
+          "description": "Take a holy dip and relax at the sacred river near the temple.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Erumely",
+          "description": "Stop at this town famous for the ritualistic worship of Lord Ayyappa and the ritual of 'Kochuvelakku'.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Experience Irumudi Kettu Tradition",
+          "description": "Witness the unique ritual of carrying a sacred bundle on the head by devotees.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Stay in Pilgrim Rest Houses",
+          "description": "Experience the spiritual atmosphere by staying in traditional pilgrim accommodations.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Explore Nilakkal Base Camp",
+          "description": "Visit the base camp area with shops, food stalls, and resting places for pilgrims.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Sannidhanam",
+          "description": "Explore the temple town and surrounding areas at the hilltop.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Experience Night-time Pilgrimage",
+          "description": "Many pilgrims trek at night to reach the temple by dawn.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Participate in Bhajans and Devotional Singing",
+          "description": "Join in devotional gatherings and chanting.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Explore Nearby Forest Trails",
+          "description": "Walk or trek through peaceful forest paths around Sabarimala.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Enjoy Simple Traditional Food",
+          "description": "Try offerings like appam, puttu, and other Kerala delicacies served in pilgrim huts.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Witness the Ritual of Lighting Nilavilakku",
+          "description": "See the lighting of traditional oil lamps as part of the temple rituals.",
+          "duration": "30 minutes"
+        }
+      ]
+    },
+    {
+      "name": "Somnath",
+      "type": "Religious & Historical",
+      "location": "Somnath, Gujarat",
+      "activities": [
+        {
+          "name": "Visit Somnath Temple",
+          "description": "Explore the famous Jyotirlinga temple on the Arabian Sea coast.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Attend Evening Aarti at Somnath Temple",
+          "description": "Witness the spiritual and grand evening prayer ceremony.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Triveni Sangam",
+          "description": "Visit the sacred confluence of three rivers nearby the temple.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Bhalka Tirth",
+          "description": "Explore the historic site where Lord Krishna is believed to have been struck by an arrow.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Explore Gandhi Smriti",
+          "description": "Visit the memorial dedicated to Mahatma Gandhi located near Somnath.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Walk Along the Somnath Beach",
+          "description": "Relax on the sandy beach and enjoy the sea breeze.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Jyotirlinga Museum",
+          "description": "Learn about the history of the Somnath temple and Jyotirlingas.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Prabhas Patan Museum",
+          "description": "Discover archaeological artifacts related to Somnath's history.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Take a Boat Ride",
+          "description": "Enjoy a short boat ride near the temple for scenic views.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit Somnath Beach Market",
+          "description": "Shop for local handicrafts, souvenirs, and traditional items.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Festivals at Somnath Temple",
+          "description": "Participate in religious festivals like Maha Shivratri.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Explore Hiran Minar",
+          "description": "Visit the ancient minaret and nearby historical sites.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit nearby Veraval town",
+          "description": "Explore local culture and seafood markets in Veraval, the nearest town.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Try Local Gujarati Cuisine",
+          "description": "Taste dishes like dhokla, thepla, and fafda at local eateries.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Photography of Sunset at the Beach",
+          "description": "Capture beautiful sunset views over the Arabian Sea.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Bodh Gaya",
+      "type": "Religious & Spiritual",
+      "location": "Bodh Gaya, Bihar",
+      "activities": [
+        {
+          "name": "Visit Mahabodhi Temple",
+          "description": "Explore the UNESCO World Heritage Site where Lord Buddha attained enlightenment.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Meditate under the Bodhi Tree",
+          "description": "Spend peaceful moments meditating at the sacred Bodhi Tree.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Great Buddha Statue",
+          "description": "Visit the large seated Buddha statue, an iconic landmark.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Thai Monastery",
+          "description": "Discover beautiful architecture and peaceful surroundings of this monastery.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Evening Prayer Ceremonies",
+          "description": "Experience the serene chanting and lighting of butter lamps.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Tibetan Monastery",
+          "description": "Explore vibrant murals and Buddhist artifacts.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Archaeological Museum",
+          "description": "Learn about the history and artifacts of Buddhism.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Take a Yoga or Meditation Class",
+          "description": "Join sessions offered by various ashrams and centers.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Visit Japanese Temple",
+          "description": "Experience Japanese Buddhist culture and architecture.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Enjoy Local Cuisine",
+          "description": "Try traditional Bihari dishes and simple vegetarian fare.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Dungeshwari Cave Temples",
+          "description": "Visit the nearby caves where Buddha meditated before enlightenment.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Participate in Full Moon Pooja",
+          "description": "Join special prayers during full moon days.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Visit Sujata Village",
+          "description": "Explore the village associated with the story of Sujata feeding Buddha.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Shop for Buddhist Souvenirs",
+          "description": "Buy prayer beads, statues, and handicrafts.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Buddhist Teachings",
+          "description": "Listen to talks and teachings by resident monks.",
+          "duration": "Varies"
+        }
+      ]
+    },
+    {
+      "name": "Ajmer Sharif Dargah",
+      "type": "Religious & Cultural",
+      "location": "Ajmer, Rajasthan",
+      "activities": [
+        {
+          "name": "Visit Ajmer Sharif Dargah",
+          "description": "Pay respects at the shrine of Sufi saint Khwaja Moinuddin Chishti.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Participate in Qawwali Sessions",
+          "description": "Experience soul-stirring Sufi devotional music.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Explore Adhai-din-ka-Jhonpra",
+          "description": "Visit this historic mosque with Indo-Islamic architecture.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Ana Sagar Lake",
+          "description": "Relax by the scenic lake with views of the Aravalli hills.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Climb to Taragarh Fort",
+          "description": "Explore the ancient fort with panoramic views of Ajmer.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit Nasiyan Jain Temple",
+          "description": "Admire the gold-plated interiors and beautiful architecture.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Government Museum",
+          "description": "Learn about local history and culture.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Shop at Ajmer Bazaar",
+          "description": "Buy traditional Rajasthani handicrafts, textiles, and jewelry.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Enjoy Rajasthani Cuisine",
+          "description": "Taste local delicacies like dal bati churma and gatte ki sabzi.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Urs Festival",
+          "description": "Witness the grand annual festival celebrating Khwaja Moinuddin Chishti’s death anniversary.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Visit Akbari Fort and Museum",
+          "description": "Explore the historic fort built by Emperor Akbar.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Experience Local Hospitality",
+          "description": "Interact with pilgrims and locals to learn about Sufi traditions.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Visit Khas Mahal",
+          "description": "Explore this Mughal-era palace with beautiful gardens.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Take a Spiritual Walk around the Dargah Complex",
+          "description": "Experience the peaceful atmosphere and sacred surroundings.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit the Dargah Museum",
+          "description": "Learn about the history and significance of the shrine.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Hazrat Nizamuddin Dargah",
+      "type": "Religious & Cultural",
+      "location": "Delhi",
+      "activities": [
+        {
+          "name": "Visit Hazrat Nizamuddin Dargah",
+          "description": "Pay homage to the Sufi saint Nizamuddin Auliya at his tomb.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Attend Evening Qawwali Performances",
+          "description": "Experience traditional Sufi music performances every evening.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Explore Chausath Khamba",
+          "description": "Visit this impressive monument with 64 pillars.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit Jamaat Khana Mosque",
+          "description": "Explore the mosque within the dargah complex.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit Sunder Nursery",
+          "description": "Relax in this beautifully landscaped garden adjacent to the dargah.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Explore Humayun's Tomb Nearby",
+          "description": "Visit this UNESCO World Heritage site close to the dargah.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Enjoy Street Food in Nizamuddin Bazaar",
+          "description": "Try famous Mughlai delicacies like kebabs and biryani.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Mirza Ghalib’s Tomb",
+          "description": "Explore the tomb of the renowned Urdu poet near the dargah.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Explore Nizamuddin Baoli (Stepwell)",
+          "description": "Visit the ancient stepwell near the dargah.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Attend Urs Festival Celebrations",
+          "description": "Join the annual festival commemorating the death anniversary of Nizamuddin Auliya.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Take a Heritage Walk",
+          "description": "Explore nearby historical monuments and learn about Delhi’s rich history.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit the Tomb of Amir Khusro",
+          "description": "Pay respects to the famous disciple of Nizamuddin Auliya and poet.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Explore the Nearby Hazrat Nizamuddin Railway Station Area",
+          "description": "Discover local markets and food stalls around the station.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Participate in Spiritual Gatherings",
+          "description": "Join devotional singing and prayer sessions.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Shop for Traditional Souvenirs",
+          "description": "Buy handicrafts, carpets, and religious items from nearby shops.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Mount Abu",
+      "type": "Hill Station & Religious",
+      "location": "Rajasthan",
+      "activities": [
+        {
+          "name": "Visit Dilwara Jain Temples",
+          "description": "Admire the exquisite marble carvings and intricate architecture of these 11th-13th century Jain temples.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Boat Ride at Nakki Lake",
+          "description": "Enjoy a relaxing paddle or row boat ride surrounded by hills and rock formations.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Trek to Sunset Point",
+          "description": "Watch the sun dip behind the hills, offering a panoramic view of the Aravallis.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Guru Shikhar",
+          "description": "Visit the highest peak in the Aravalli Range and a temple dedicated to Guru Dattatreya.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit Mount Abu Wildlife Sanctuary",
+          "description": "Spot leopards, sloth bears, and a wide variety of flora and birds.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Tour Achalgarh Fort",
+          "description": "Explore this ancient fort and the nearby Achaleshwar Mahadev Temple.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Brahma Kumaris Peace Park",
+          "description": "Enjoy the tranquil gardens and learn about Rajyoga meditation.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Walk around Toad Rock",
+          "description": "Climb the famous toad-shaped rock for scenic views of the lake.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Shop at Mount Abu Bazaar",
+          "description": "Buy handicrafts, Rajasthani textiles, and souvenirs.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Enjoy Rajasthani Cuisine",
+          "description": "Try dal bati churma, gatte ki sabzi, and local sweets.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend the Summer Festival (May)",
+          "description": "Enjoy folk music, dance, and cultural programs during this annual event.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Visit Arbuda Devi Temple",
+          "description": "Climb 365 steps to this cave temple dedicated to the goddess Arbuda.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Cycle Around the Hills",
+          "description": "Rent a cycle and explore the town’s scenic routes.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Trevor’s Tank",
+          "description": "A quiet spot for picnics and spotting crocodiles and birds.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Capture Photographs at Honeymoon Point",
+          "description": "Enjoy romantic views and natural rock formations.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Guruvayur",
+      "type": "Religious & Cultural",
+      "location": "Kerala",
+      "activities": [
+        {
+          "name": "Visit Guruvayur Temple",
+          "description": "Offer prayers at the Krishna temple known as 'Dwarka of the South'.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Attend Temple Elephant Procession",
+          "description": "Witness caparisoned elephants during festivals and temple processions.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Punnathur Kotta Elephant Sanctuary",
+          "description": "Visit the sanctuary housing elephants offered to the temple.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Watch Traditional Kerala Wedding Ceremonies",
+          "description": "Witness real weddings conducted at the temple premises daily.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Mammiyoor Shiva Temple",
+          "description": "A visit here is considered mandatory after Guruvayur Temple.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Ulsavam Festival (Feb-Mar)",
+          "description": "Experience vibrant festivities, music, and dance.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Explore Institute of Mural Painting",
+          "description": "See traditional Kerala mural art and training in progress.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Shop for Temple Prasadam and Souvenirs",
+          "description": "Buy banana chips, sandalwood paste, and Krishna idols.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Enjoy a Kerala Sadya",
+          "description": "Feast on a traditional vegetarian meal served on banana leaves.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Chamundeswari Temple",
+          "description": "A beautiful hilltop temple near Guruvayur.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Watch Kathakali or Classical Dance Performance",
+          "description": "Experience Kerala’s vibrant performing arts.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Take an Ayurvedic Spa",
+          "description": "Relax with traditional massages and treatments.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Participate in Early Morning Darshan",
+          "description": "Experience the spiritual rituals and energy of early temple worship.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Parthasarathy Temple",
+          "description": "Another temple dedicated to Lord Krishna nearby.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Stroll through Guruvayur Streets",
+          "description": "Soak in the spiritual vibe and explore the surroundings.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Ujjain",
+      "type": "Religious & Spiritual",
+      "location": "Madhya Pradesh",
+      "activities": [
+        {
+          "name": "Visit Mahakaleshwar Jyotirlinga",
+          "description": "Offer prayers at this ancient temple and one of the 12 Jyotirlingas.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Attend Bhasma Aarti at Mahakaleshwar",
+          "description": "Witness the unique and spiritual early morning ritual with sacred ash.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Take a Holy Dip in Shipra River",
+          "description": "Perform rituals and take a dip during festivals or sunrise.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Kal Bhairav Temple",
+          "description": "Explore the temple where liquor is offered to the deity.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Ram Ghat",
+          "description": "Attend evening aarti and enjoy serene riverside walks.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Harsiddhi Temple",
+          "description": "One of the 51 Shakti Peethas, known for its divine aura.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Sandipani Ashram",
+          "description": "Visit the ancient school believed to have been attended by Lord Krishna.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Participate in Kumbh Mela (every 12 years)",
+          "description": "Experience one of the world’s largest religious gatherings.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Visit Chintaman Ganesh Temple",
+          "description": "Worship at one of Ujjain’s oldest temples dedicated to Lord Ganesha.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Bhartrihari Caves",
+          "description": "Visit the caves linked to the great scholar Bhartrihari.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Gopal Mandir",
+          "description": "Admire the Maratha-style architecture and silver deity of Krishna.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Enjoy Local Malwa Cuisine",
+          "description": "Try poha, jalebi, dal bafla, and sabudana khichdi.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Take a Spiritual Heritage Walk",
+          "description": "Join guided walks to explore Ujjain's sacred and historic sites.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Watch Light & Sound Show at Kalidas Academy",
+          "description": "Learn about the city’s literary and cultural legacy.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Shop at Local Bazaars",
+          "description": "Buy Rudraksha beads, idols, and spiritual books.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Kalahasti",
+      "type": "Religious & Spiritual",
+      "location": "Andhra Pradesh",
+      "activities": [
+        {
+          "name": "Visit Sri Kalahasteeswara Temple",
+          "description": "Offer prayers at the famous Shiva temple known for Rahu-Ketu dosha nivarana pooja.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Attend Rahu-Ketu Pooja",
+          "description": "Participate in this powerful ritual believed to nullify astrological doshas.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore the Temple Architecture",
+          "description": "Admire the detailed Dravidian-style architecture and intricately carved gopurams.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Bharadwaja Tirtham",
+          "description": "Take a peaceful walk around this sacred pond near the temple premises.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Climb Durgambika Temple Hill",
+          "description": "Enjoy panoramic views after a short climb to this small but spiritual temple.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Shop for Religious Souvenirs",
+          "description": "Buy rudraksha malas, idols, and pooja items from stalls near the temple.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Watch Temple Rituals and Aarti",
+          "description": "Experience the divine atmosphere during daily aartis and abhishekams.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Veyilingala Kona Waterfalls (seasonal)",
+          "description": "A serene waterfall around 8 km from Kalahasti, ideal during monsoon.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Photography Around Temple Premises",
+          "description": "Capture spiritual moments and temple views with your camera.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Taste Local Andhra Street Food",
+          "description": "Try spicy snacks and traditional sweets outside temple streets.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Meditate in Temple Courtyard",
+          "description": "Find peace and connect spiritually through meditation in temple surroundings.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit Subramanya Swamy Temple",
+          "description": "A small temple nearby dedicated to Lord Murugan.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Learn About Rahu-Ketu Mythology",
+          "description": "Understand the significance behind the Rahu-Ketu Pooja.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Watch the Evening Sunset from Hilltop",
+          "description": "Witness a calm sunset view from Durgambika Hill.",
+          "duration": "45 minutes"
+        },
+        {
+          "name": "Interact with Local Priests and Devotees",
+          "description": "Gain spiritual insights by talking to temple priests and pilgrims.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Shravanabelagola",
+      "type": "Religious & Historical",
+      "location": "Karnataka",
+      "activities": [
+        {
+          "name": "Climb Vindhyagiri Hill",
+          "description": "Climb 600+ steps barefoot to reach the majestic statue of Lord Bahubali (Gommateshwara).",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "View Gommateshwara Statue",
+          "description": "Marvel at the 57-feet monolithic Jain statue, one of the tallest of its kind in the world.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Chandragiri Hill",
+          "description": "Explore the smaller hill with ancient Jain temples and memorials of saints.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Attend Mahamastakabhisheka Festival (once every 12 years)",
+          "description": "Witness the grand anointing ceremony of Lord Bahubali with milk, turmeric, and saffron.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Explore Jain Math and Museums",
+          "description": "Learn about Jainism’s history, literature, and heritage.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Capture Panoramic Views",
+          "description": "Enjoy sweeping views of the town and surrounding hills from the hilltops.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Stroll Through Shravanabelagola Town",
+          "description": "Walk through the peaceful village with traditional architecture and Jain influence.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Try Local Karnataka Cuisine",
+          "description": "Relish simple yet flavorful vegetarian South Indian meals.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Odegal Basadi",
+          "description": "Explore this large Jain temple built from soapstone on Vindhyagiri Hill.",
+          "duration": "45 minutes"
+        },
+        {
+          "name": "Visit Bhandara Basadi",
+          "description": "Admire one of the largest temples on Chandragiri hill with 24 Tirthankara images.",
+          "duration": "45 minutes"
+        },
+        {
+          "name": "Watch Sunset from Chandragiri",
+          "description": "Enjoy a beautiful sunset view from the smaller hill.",
+          "duration": "45 minutes"
+        },
+        {
+          "name": "Explore Ancient Inscriptions",
+          "description": "Read and explore old Kannada and Sanskrit inscriptions carved on rocks and temples.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Photograph Historical Structures",
+          "description": "Capture unique and ancient architectural structures across the hills.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Learn About Bahubali's Story",
+          "description": "Discover the legend of Bahubali through local guides and temple boards.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Buy Handicrafts and Souvenirs",
+          "description": "Shop for Jain literature, framed photos, and local souvenirs.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Srisailam",
+      "type": "Religious & Natural",
+      "location": "Andhra Pradesh",
+      "activities": [
+        {
+          "name": "Visit Mallikarjuna Jyotirlinga Temple",
+          "description": "Offer prayers at this Jyotirlinga and Shakti Peetha located atop Nallamala hills.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Darshan at Bhramaramba Devi Temple",
+          "description": "Seek blessings at one of the 18 Shakti Peethas situated beside the main temple.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Boating at Pathala Ganga",
+          "description": "Take a ropeway or steps down to Krishna River and enjoy a boat ride.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Srisailam Dam Viewpoint",
+          "description": "Admire the massive dam and scenic surroundings especially during the rainy season.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Explore Akka Mahadevi Caves",
+          "description": "Take a boat ride and trek to reach the historic cave shrine of a famous saint-poetess.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Wildlife Safari in Srisailam Tiger Reserve",
+          "description": "Go on a guided jeep safari to spot tigers, leopards, and other wildlife.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Trek in Nallamala Forests",
+          "description": "Explore the dense forest trails around the temple town for adventure lovers.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Attend Temple Festivals (e.g., Maha Shivaratri)",
+          "description": "Experience the divine atmosphere during major religious celebrations.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Enjoy Local Andhra Cuisine",
+          "description": "Taste spicy curries, pulihora, and temple prasadam in local eateries.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Hatakeswaram Temple",
+          "description": "Located en route to the main shrine, this is a peaceful and scenic stop.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Explore Sakshi Ganapathi Temple",
+          "description": "Visit this small temple believed to keep records of devotees visiting Srisailam.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit Phaladhara Panchadhara",
+          "description": "A serene spot with small waterfalls and a spiritual ambiance near the hill route.",
+          "duration": "45 minutes"
+        },
+        {
+          "name": "Ropeway Ride to Pathala Ganga",
+          "description": "Enjoy a scenic ride down to the river from the hilltop.",
+          "duration": "20 minutes"
+        },
+        {
+          "name": "Take a Dip in Pathala Ganga",
+          "description": "Spiritual cleansing believed to be attained by a dip in this river.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit the Srisailam Tribal Museum",
+          "description": "Discover the culture and heritage of local tribes through artifacts and exhibits.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Kamakhya Temple",
+      "type": "Religious & Cultural",
+      "location": "Assam",
+      "activities": [
+        {
+          "name": "Darshan at Kamakhya Temple",
+          "description": "Offer prayers at one of the most sacred Shakti Peethas dedicated to Goddess Kamakhya.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Attend Daily Aarti Rituals",
+          "description": "Witness the early morning and evening aarti ceremonies for a spiritual experience.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit the Garbhagriha (Sanctum)",
+          "description": "See the sacred yoni-shaped stone kept moist year-round with spring water.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Explore the Temple Complex",
+          "description": "Walk through the temple premises and explore smaller shrines dedicated to various deities.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Ambubachi Mela (Annual Festival)",
+          "description": "Participate in the grand spiritual festival held during June celebrating Goddess’s menstruation cycle.",
+          "duration": "Varies (1-3 days)"
+        },
+        {
+          "name": "View Traditional Assamese Architecture",
+          "description": "Admire the Nilachal-style temple structure with beehive-shaped domes and sculptural details.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit Bhubaneswari Temple",
+          "description": "Climb a bit higher to visit this temple offering a panoramic view of the Brahmaputra River.",
+          "duration": "45 minutes"
+        },
+        {
+          "name": "Explore Local Shops for Souvenirs",
+          "description": "Buy religious items, Assamese handicrafts, and traditional clothes from temple-side stalls.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Take Part in Special Poojas and Homas",
+          "description": "Book or observe special rituals conducted by priests for various spiritual purposes.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Enjoy Panoramic Views of Guwahati",
+          "description": "Capture scenic views of the city and the Brahmaputra from the temple hill.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Try Assamese Prasadam and Local Snacks",
+          "description": "Taste prasadam from the temple and local Assamese snacks like pitha and laru.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Interact with Sadhus and Devotees",
+          "description": "Engage in conversations with spiritual seekers visiting from all over India.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit the Kamakhya Museum",
+          "description": "Learn about the temple’s history, legends, and tantric traditions through displays.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Photography of Temple Art & Surroundings",
+          "description": "Capture artistic carvings, temple architecture, and spiritual moments.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Take a Guided Tour to Learn Tantric Legends",
+          "description": "Understand the temple’s deep association with Tantric practices and goddess worship.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Ayodhya",
+      "type": "Religious & Historical",
+      "location": "Uttar Pradesh",
+      "activities": [
+        {
+          "name": "Visit Ram Janmabhoomi",
+          "description": "Explore the sacred site believed to be the birthplace of Lord Rama.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Darshan at Hanuman Garhi",
+          "description": "Visit the famous Hanuman temple located on a hill offering panoramic views of Ayodhya.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Ram Navami Festival",
+          "description": "Participate in the grand celebrations marking the birth of Lord Rama.",
+          "duration": "Varies (1 day)"
+        },
+        {
+          "name": "Explore Kanak Bhawan Temple",
+          "description": "Visit the temple dedicated to Lord Rama and Goddess Sita with exquisite architecture.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Walk Along Saryu River Ghats",
+          "description": "Enjoy peaceful strolls and spiritual rituals by the holy riverbanks.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Boat Ride on Saryu River",
+          "description": "Take a boat ride to experience sunrise or sunset views and rituals at the ghats.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Treta Ke Thakur Temple",
+          "description": "Explore this ancient temple where Lord Rama is believed to have performed the Ashwamedha Yagna.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Attend Evening Aarti at Saryu Ghats",
+          "description": "Experience the mesmerizing evening rituals and devotional songs at the river.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Nageshwarnath Temple",
+          "description": "Explore the temple dedicated to Lord Shiva with mythological significance.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Explore Guptar Ghat",
+          "description": "Visit the serene and less crowded ghat known for meditation and rituals.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Attend Ram Katha and Bhajan Sessions",
+          "description": "Join spiritual discourses and devotional music sessions dedicated to Lord Rama.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Shop for Religious Souvenirs",
+          "description": "Buy idols, books, and handicrafts from local markets near temples.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Bharat Kund",
+          "description": "Explore the sacred pond associated with Lord Rama's brother, Bharat.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Explore Ayodhya Museum",
+          "description": "Learn about the city's rich history, Ramayana heritage, and archaeological findings.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Taste Local Awadhi Cuisine",
+          "description": "Enjoy traditional delicacies like kebabs, biryani, and sweets in local eateries.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Kashi (Varanasi)",
+      "type": "Religious & Cultural",
+      "location": "Uttar Pradesh",
+      "activities": [
+        {
+          "name": "Visit Kashi Vishwanath Temple",
+          "description": "Offer prayers at one of the most famous Shiva temples in India.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Attend Ganga Aarti at Dashashwamedh Ghat",
+          "description": "Experience the mesmerizing evening worship ritual on the banks of the Ganges.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Boat Ride on River Ganges",
+          "description": "Take an early morning boat ride to witness sunrise and rituals on the ghats.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Explore Manikarnika Ghat",
+          "description": "Visit one of the oldest and holiest cremation ghats of Varanasi.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Visit Tulsi Manas Temple",
+          "description": "See the temple dedicated to poet-saint Tulsi Das, author of Ramcharitmanas.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Walk Through the Old City Alleys",
+          "description": "Explore the narrow lanes with shops, temples, and vibrant local life.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Sarnath",
+          "description": "Take a short trip to the nearby Buddhist site where Lord Buddha gave his first sermon.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Attend Kashi Naresh Procession (Special occasions)",
+          "description": "Witness the royal procession of the King of Varanasi during festivals.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Experience Yoga and Meditation Sessions",
+          "description": "Join classes offered at various ashrams along the ghats for spiritual practice.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Bharat Mata Temple",
+          "description": "Explore this unique temple dedicated to Mother India featuring a relief map of India.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Shop for Banarasi Silk and Handicrafts",
+          "description": "Buy famous Banarasi sarees, scarves, and other handicrafts in local markets.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Taste Local Varanasi Cuisine",
+          "description": "Try kachori sabzi, chaat, and sweets like jalebi and rabri.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Visit Ramnagar Fort",
+          "description": "Explore the historic fort and museum on the eastern bank of the Ganges.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Attend Classical Music Concerts",
+          "description": "Enjoy live performances of Indian classical music, especially during the Ganges festival.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Alamgir Mosque",
+          "description": "See this historic mosque built by Emperor Aurangzeb overlooking the Ganges.",
+          "duration": "30 minutes"
+        }
+      ]
+    },
+    {
+      "name": "Radhanagar Beach",
+      "type": "Beach & Nature",
+      "location": "Andaman & Nicobar Islands",
+      "activities": [
+        {"name": "Relax on the White Sands", "description": "Enjoy the pristine, soft white sandy beach and turquoise waters.", "duration": "2-3 hours"},
+        {"name": "Swim in Clear Blue Waters", "description": "Take a refreshing swim in the clean, calm sea.", "duration": "1-2 hours"},
+        {"name": "Watch the Sunset", "description": "Witness one of the most beautiful sunsets on the beach.", "duration": "30 minutes"},
+        {"name": "Beach Volleyball", "description": "Join or organize a fun beach volleyball game.", "duration": "1 hour"},
+        {"name": "Photography of Scenic Views", "description": "Capture stunning views of the sea, sand, and surrounding greenery.", "duration": "1 hour"},
+        {"name": "Nature Walks Along the Beach", "description": "Explore the lush forests bordering the beach and spot local wildlife.", "duration": "1-2 hours"},
+        {"name": "Snorkeling Near the Shore", "description": "Discover vibrant marine life close to the beach.", "duration": "1-2 hours"},
+        {"name": "Visit Nearby Elephant Beach", "description": "Take a short boat ride to Elephant Beach for snorkeling and water activities.", "duration": "3-4 hours"},
+        {"name": "Kayaking in Calm Waters", "description": "Rent a kayak and paddle gently along the coast.", "duration": "1 hour"},
+        {"name": "Picnic on the Beach", "description": "Enjoy a packed meal or buy local snacks and picnic by the sea.", "duration": "1 hour"},
+        {"name": "Beachcombing for Shells", "description": "Collect unique seashells and small marine treasures.", "duration": "30 minutes"},
+        {"name": "Explore the Nearby Forest Trails", "description": "Take a guided trek in the nearby tropical forests.", "duration": "2 hours"},
+        {"name": "Yoga and Meditation on the Beach", "description": "Practice yoga or meditate with the sound of waves in the background.", "duration": "1 hour"},
+        {"name": "Bird Watching", "description": "Spot local and migratory birds in the area.", "duration": "1 hour"},
+        {"name": "Campfire at Night (where permitted)", "description": "Enjoy a beach campfire experience with friends or family.", "duration": "2 hours"}
+      ]
+    },
+    {
+      "name": "Varkala Beach",
+      "type": "Beach & Spiritual Wellness",
+      "location": "Kerala",
+      "activities": [
+        {"name": "Sunbathing on the Cliffside Beach", "description": "Relax on the sands below the cliff while enjoying scenic views.", "duration": "2 hours"},
+        {"name": "Walk Along the Cliff Promenade", "description": "Stroll along the cliff top lined with cafes, shops, and viewpoints.", "duration": "1 hour"},
+        {"name": "Visit Janardhana Swamy Temple", "description": "Explore the ancient temple known for its spiritual significance.", "duration": "1 hour"},
+        {"name": "Take a Dip in Natural Springs", "description": "Bathe in the natural medicinal springs near the cliff.", "duration": "30 minutes"},
+        {"name": "Paragliding over the Beach", "description": "Experience paragliding for aerial views of the coastline.", "duration": "30 minutes"},
+        {"name": "Sunset Viewing from the Cliff", "description": "Watch spectacular sunsets from the cliff viewpoints.", "duration": "30 minutes"},
+        {"name": "Ayurvedic Massage and Spa", "description": "Book a traditional Ayurvedic treatment at a beachside spa.", "duration": "1-2 hours"},
+        {"name": "Beach Yoga Sessions", "description": "Join morning or evening yoga classes on the beach or cliff top.", "duration": "1 hour"},
+        {"name": "Explore the Varkala Tunnel", "description": "Visit the historic tunnel built by the British era near the beach.", "duration": "30 minutes"},
+        {"name": "Shop for Local Handicrafts", "description": "Browse shops selling handicrafts, beachwear, and souvenirs.", "duration": "1 hour"},
+        {"name": "Try Local Kerala Cuisine at Cliffside Cafes", "description": "Taste fresh seafood and Kerala delicacies with sea views.", "duration": "1 hour"},
+        {"name": "Meditation Retreats Nearby", "description": "Join short meditation or wellness retreats at nearby centers.", "duration": "Varies"},
+        {"name": "Boat Ride in Backwaters", "description": "Take a short trip to nearby backwaters and enjoy serene boat rides.", "duration": "1-2 hours"},
+        {"name": "Scuba Diving and Snorkeling", "description": "Explore underwater marine life with local dive operators.", "duration": "1-2 hours"},
+        {"name": "Visit Anjengo Fort (Nearby)", "description": "Explore the ruins of a Portuguese fort located close to Varkala.", "duration": "1-2 hours"}
+      ]
+    },
+    {
+      "name": "Puri Beach",
+      "type": "Beach & Religious",
+      "location": "Odisha",
+      "activities": [
+        {"name": "Visit Jagannath Temple", "description": "Take darshan at the famous Jagannath Temple in Puri.", "duration": "1-2 hours"},
+        {"name": "Walk on Puri Beach", "description": "Enjoy a leisurely walk along the golden sands of Puri beach.", "duration": "1-2 hours"},
+        {"name": "Attend Evening Aarti on the Beach", "description": "Witness the spiritual aarti ceremony at the beach in the evening.", "duration": "30 minutes"},
+        {"name": "Horse and Camel Rides on the Beach", "description": "Enjoy traditional horse or camel rides along the shore.", "duration": "30 minutes"},
+        {"name": "Watch Sunrise Over the Bay of Bengal", "description": "Experience a beautiful sunrise early in the morning.", "duration": "30 minutes"},
+        {"name": "Shop for Pattachitra Art and Handicrafts", "description": "Buy traditional Odisha paintings and crafts from local markets.", "duration": "1 hour"},
+        {"name": "Visit Gundicha Temple", "description": "Explore the temple where the deities are believed to stay during Rath Yatra.", "duration": "1 hour"},
+        {"name": "Try Local Odia Cuisine", "description": "Taste seafood and local delicacies like Rasgulla, Dalma, and Khicede.", "duration": "1 hour"},
+        {"name": "Explore Chilika Lake (Nearby)", "description": "Take a day trip to Asia’s largest brackish water lagoon for bird watching and boating.", "duration": "Full day"},
+        {"name": "Attend the Rath Yatra Festival (Seasonal)", "description": "Participate in or witness the grand chariot festival of Lord Jagannath.", "duration": "Varies"},
+        {"name": "Visit Loknath Temple", "description": "A revered temple dedicated to Lord Shiva near Puri.", "duration": "1 hour"},
+        {"name": "Sand Art and Beach Sports", "description": "Try your hand at sandcastle making or beach volleyball.", "duration": "1 hour"},
+        {"name": "Sunbathing and Swimming", "description": "Relax and swim in the sea at designated safe areas.", "duration": "1-2 hours"},
+        {"name": "Visit Puri Museum", "description": "Learn about local history, art, and culture.", "duration": "1 hour"},
+        {"name": "Enjoy Seafood at Beachside Shacks", "description": "Relish fresh seafood dishes served in casual beachside eateries.", "duration": "1 hour"}
+      ]
+    },
+    {
+      "name": "Gokarna",
+      "type": "Beach & Hiking",
+      "location": "Karnataka",
+      "activities": [
+        {
+          "name": "Relax on Om Beach",
+          "description": "Spend time unwinding on the serene Om-shaped beach with calm waters.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit Kudle Beach",
+          "description": "Enjoy the peaceful atmosphere and scenic beauty of Kudle Beach.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Hike the Gokarna Beach Trails",
+          "description": "Trek between the beaches along rugged coastline trails with stunning views.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Explore Paradise Beach",
+          "description": "Discover this secluded beach reachable by boat or hike for a quiet retreat.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit Mahabaleshwar Temple",
+          "description": "Offer prayers at the famous temple dedicated to Lord Shiva in Gokarna town.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Sunset Viewing at Half Moon Beach",
+          "description": "Witness breathtaking sunsets at this less crowded crescent-shaped beach.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Beach Camping",
+          "description": "Set up camp on the beach and enjoy an overnight stay under the stars.",
+          "duration": "Overnight"
+        },
+        {
+          "name": "Try Local Seafood",
+          "description": "Taste freshly caught and cooked seafood at beachside shacks.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Meditation and Yoga Sessions",
+          "description": "Join morning or evening yoga classes held on the beach for relaxation.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Boat Ride Along the Coast",
+          "description": "Take a scenic boat ride to explore the coastline and hidden beaches.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Explore Local Markets",
+          "description": "Shop for handicrafts, souvenirs, and beachwear in the town markets.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Attend Spiritual Gatherings",
+          "description": "Experience local spiritual and cultural gatherings or festivals in the town.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Photography of Beaches and Hills",
+          "description": "Capture the natural beauty of beaches, hills, and sunsets.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Mirjan Fort Nearby",
+          "description": "Explore the historical Mirjan Fort located about 10 km from Gokarna.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Beach Bonfire Nights",
+          "description": "Enjoy cozy bonfires with music and friends at night on the beach.",
+          "duration": "2-3 hours"
+        }
+      ]
+    },
+    {
+      "name": "Mandarmani",
+      "type": "Beach & Relaxation",
+      "location": "West Bengal",
+      "activities": [
+        {
+          "name": "Walk Along the Long Beach Stretch",
+          "description": "Take peaceful strolls on the long and wide sandy beach.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Horse Riding on the Beach",
+          "description": "Enjoy horse rides along the coastline for a fun experience.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Jet Skiing",
+          "description": "Try thrilling jet ski rides on the calm sea waters.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Beach Volleyball",
+          "description": "Participate or watch exciting beach volleyball games.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Relaxing at Beach Resorts",
+          "description": "Stay at comfortable resorts and enjoy beach views and amenities.",
+          "duration": "Varies"
+        },
+        {
+          "name": "Sunrise Watching",
+          "description": "Witness stunning sunrises over the Bay of Bengal.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Beach Photography",
+          "description": "Capture beautiful moments of sea, sand, and sky.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Enjoy Local Bengali Cuisine",
+          "description": "Savor traditional Bengali dishes and seafood specialties.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Beach Cycling",
+          "description": "Rent bicycles to explore the beach area and nearby villages.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Fishing",
+          "description": "Try fishing with local fishermen or from the shore.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Swimming in the Sea",
+          "description": "Take a dip in the sea and enjoy the gentle waves.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Sandcastle Building",
+          "description": "Fun activity for kids and adults alike building sand sculptures.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Bonfire Evenings",
+          "description": "Gather around a bonfire on the beach in the evenings.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Visit Nearby Digha Beach",
+          "description": "Take a short trip to Digha for more beach exploration.",
+          "duration": "3-4 hours"
+        },
+        {
+          "name": "Shopping for Local Handicrafts",
+          "description": "Buy souvenirs and handmade crafts from local shops.",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "name": "Tarkarli",
+      "type": "Beach & Water Sports",
+      "location": "Maharashtra",
+      "activities": [
+        {
+          "name": "Scuba Diving",
+          "description": "Explore underwater marine life and coral reefs with professional guides.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Snorkeling",
+          "description": "Snorkel in clear waters to see colorful fish and corals.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Visit Sindhudurg Fort",
+          "description": "Tour the historic island fort built by Shivaji, located near Tarkarli.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Boat Ride on Tarkarli River",
+          "description": "Enjoy scenic boat rides through the river and backwaters.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Relax on Tarkarli Beach",
+          "description": "Sunbathe and relax on the pristine beach with soft sands.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Explore Coral Reefs",
+          "description": "Take guided tours to observe vibrant coral formations underwater.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Parasailing",
+          "description": "Experience the thrill of parasailing over the Arabian Sea.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Jet Skiing",
+          "description": "Rent jet skis and ride the waves for an adrenaline rush.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Fishing Trips",
+          "description": "Go on fishing excursions with local fishermen.",
+          "duration": "2-3 hours"
+        },
+        {
+          "name": "Visit Devbagh Beach",
+          "description": "Explore this nearby beach known for its clean sands and calm waters.",
+          "duration": "2 hours"
+        },
+        {
+          "name": "Try Local Malvani Cuisine",
+          "description": "Taste authentic Malvani dishes including seafood specialties.",
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Beach Camping",
+          "description": "Spend nights camping on the beach under the stars.",
+          "duration": "Overnight"
+        },
+        {
+          "name": "Sunset Watching",
+          "description": "Watch spectacular sunsets over the Arabian Sea.",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Kayaking",
+          "description": "Rent a kayak and paddle along the serene coastal waters.",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Photography of Marine Life",
+          "description": "Capture underwater and coastal wildlife through photography.",
+          "duration": "1-2 hours"
+        }
+      ]
+    },
+    {
+    "name": "Marina Beach",
+    "type": "Beach & Urban",
+    "location": "Chennai, Tamil Nadu",
+    "activities": [
+      {
+        "name": "Sunrise Watching",
+        "description": "Catch the beautiful sunrise over the Bay of Bengal.",
+        "duration": "30 minutes"
+      },
+      {
+        "name": "Beach Walk",
+        "description": "Take a leisurely walk along the 13 km long beach.",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Horse Riding",
+        "description": "Enjoy horse rides offered by local vendors along the beach.",
+        "duration": "30 minutes"
+      },
+      {
+        "name": "Food Tasting",
+        "description": "Sample street food like sundal, murukku, and fresh coconut water.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Visit Anna Memorial",
+        "description": "Explore the memorial dedicated to C.N. Annadurai near the beach.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Play Beach Volleyball",
+        "description": "Join or watch local volleyball games on the sands.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Photography",
+        "description": "Capture vibrant scenes of local life, fishermen, and the sea.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Visit Lighthouse",
+        "description": "Check out the old lighthouse nearby for panoramic views.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Shopping for Souvenirs",
+        "description": "Browse beachside stalls selling handicrafts and toys.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Watch Kite Flying",
+        "description": "Enjoy the colorful kite flying competitions on windy days.",
+        "duration": "30 minutes"
+      },
+      {
+        "name": "Attend Cultural Festivals",
+        "description": "Participate in local festivals and events hosted on the beach.",
+        "duration": "Varies"
+      },
+      {
+        "name": "Relax on the Sand",
+        "description": "Sit back and enjoy the sea breeze and sounds of waves.",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Jogging and Exercise",
+        "description": "Join locals for morning jogging and fitness routines.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Watch Fishing Boats Return",
+        "description": "Observe fishermen bring their catch to shore in the evening.",
+        "duration": "30 minutes"
+      },
+      {
+        "name": "Boat Ride in Bay of Bengal",
+        "description": "Take a boat trip for a closer view of the sea and coastline.",
+        "duration": "1-2 hours"
+      }
+    ]
+  },
+  {
+    "name": "Kovalam Beach",
+    "type": "Beach & Nature",
+    "location": "Kerala",
+    "activities": [
+      {
+        "name": "Sunbathing on Lighthouse Beach",
+        "description": "Relax on the sandy shore near the iconic lighthouse.",
+        "duration": "2 hours"
+      },
+      {
+        "name": "Surfing",
+        "description": "Try surfing the gentle waves, suitable for beginners.",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Ayurvedic Massage",
+        "description": "Experience traditional Ayurvedic massages at beachside centers.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Beachside Yoga",
+        "description": "Join early morning yoga sessions overlooking the sea.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Visit Hawah Beach",
+        "description": "Explore this more secluded and quieter beach area.",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Shopping at Local Markets",
+        "description": "Buy handicrafts, seashell souvenirs, and local textiles.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Dolphin Watching",
+        "description": "Go on boat tours to spot dolphins in the Arabian Sea.",
+        "duration": "2-3 hours"
+      },
+      {
+        "name": "Visit Samudra Beach",
+        "description": "Enjoy the peaceful surroundings and fewer crowds.",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Seafood Dining",
+        "description": "Taste fresh seafood at beachside restaurants and shacks.",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Sunset Viewing",
+        "description": "Watch stunning sunsets from the cliff points near the beach.",
+        "duration": "30 minutes"
+      },
+      {
+        "name": "Scuba Diving",
+        "description": "Explore underwater marine life and coral reefs (available nearby).",
+        "duration": "2-3 hours"
+      },
+      {
+        "name": "Visit Lighthouse",
+        "description": "Climb up the lighthouse for panoramic coastal views.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Beach Volleyball",
+        "description": "Join locals for beach volleyball games.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Photography",
+        "description": "Capture scenic views of the beach and palm trees.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Boat Ride",
+        "description": "Take a calm boat ride along the coastline.",
+        "duration": "1 hour"
+      }
+    ]
+  },
+  {
+    "name": "Kanyakumari",
+    "type": "Beach & Pilgrimage",
+    "location": "Tamil Nadu",
+    "activities": [
+      {
+        "name": "Watch Sunrise and Sunset",
+        "description": "Witness the rare spectacle of both sunrise and sunset over water.",
+        "duration": "1 hour each"
+      },
+      {
+        "name": "Visit Vivekananda Rock Memorial",
+        "description": "Take a ferry to this famous memorial situated on a rock island.",
+        "duration": "2-3 hours"
+      },
+      {
+        "name": "Tour Thiruvalluvar Statue",
+        "description": "See the massive statue of the Tamil poet located next to the memorial.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Explore Kanyakumari Temple",
+        "description": "Visit the ancient temple dedicated to Goddess Kanya Kumari.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Shopping for Handicrafts",
+        "description": "Buy seashell crafts, textiles, and souvenirs from local markets.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Boat Ride to Offshore Rocks",
+        "description": "Enjoy ferry rides around the rocky outcrops and coastal views.",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Visit Gandhi Memorial",
+        "description": "Explore the memorial dedicated to Mahatma Gandhi, located near the beach.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Seafood Sampling",
+        "description": "Taste fresh coastal seafood delicacies at local eateries.",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Photography",
+        "description": "Capture panoramic views of the sea confluence and monuments.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Relax on the Beach",
+        "description": "Sit back and enjoy the unique atmosphere of the southernmost tip.",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Visit Local Museums",
+        "description": "Learn about the history and culture of the region at local museums.",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Explore Sunset Point",
+        "description": "A perfect place to watch the sun setting over the Arabian Sea.",
+        "duration": "30 minutes"
+      },
+      {
+        "name": "Attend Cultural Performances",
+        "description": "Experience local dance and music shows held occasionally near the beach.",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Bird Watching",
+        "description": "Spot migratory and coastal birds in the area.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Visit Local Temples",
+        "description": "Explore nearby temples showcasing Dravidian architecture.",
+        "duration": "1-2 hours"
+      }
+    ]
+  },
+  {
+    "name": "RK Beach",
+    "type": "Beach & Urban",
+    "location": "Visakhapatnam, Andhra Pradesh",
+    "activities": [
+      {
+        "name": "Beach Walk",
+        "description": "Stroll along the scenic promenade beside the Bay of Bengal.",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Visit INS Kursura Submarine Museum",
+        "description": "Explore the unique submarine museum located near the beach.",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Swimming",
+        "description": "Swim in the calm and clean waters of the beach.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Sunset Viewing",
+        "description": "Enjoy spectacular sunsets over the sea.",
+        "duration": "30 minutes"
+      },
+      {
+        "name": "Beach Volleyball",
+        "description": "Join locals for beach volleyball matches.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Visit Kailasagiri Hill Park",
+        "description": "Take a cable car to the hilltop park offering panoramic views of the city and beach.",
+        "duration": "2-3 hours"
+      },
+      {
+        "name": "Photography",
+        "description": "Capture the beautiful landscapes and urban scenes.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Food Sampling",
+        "description": "Taste Andhra coastal cuisine at nearby eateries.",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Jogging",
+        "description": "Morning jogging on the beach promenade is popular among locals.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Visit Submarine Beach Park",
+        "description": "Relax and picnic in the landscaped park adjacent to the beach.",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Boat Ride",
+        "description": "Enjoy a boat ride along the coastline.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Shopping at Beach Markets",
+        "description": "Buy souvenirs, handicrafts, and beachwear from local vendors.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Attend Beach Festivals",
+        "description": "Participate in seasonal festivals and events held at the beach.",
+        "duration": "Varies"
+      },
+      {
+        "name": "Meditation and Yoga",
+        "description": "Practice yoga sessions early morning on the beach.",
+        "duration": "1 hour"
+      },
+      {
+        "name": "Visit Nearby Museums and Galleries",
+        "description": "Explore cultural venues near the beach.",
+        "duration": "1-2 hours"
+      }
+    ]
+  }
+  ]
+}
+
+    

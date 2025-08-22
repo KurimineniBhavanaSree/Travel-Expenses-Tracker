@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports - AI Travel Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <style>
+        .report-card {
+            display: flex;
+            flex-direction: column;
+        }
+        .expense-summary {
+            width: 100%;
+            margin-top: 48px;
+            clear: both;
+            position: relative;
+            z-index: 1;
+        }
+        .expense-summary table {
+            width: 100%;
+        }
+        .report-card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            padding: 32px 32px 24px 32px;
+            margin: 32px auto 0 auto;
+            max-width: 1800px;
+        }
+        .charts-side-by-side {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            width: 100%;
+            margin: 0 auto 32px auto;
+            flex-wrap: nowrap;
+        }
+        .expense-summary {
+            margin-top: 48px;
+            clear: both;
+            position: relative;
+            z-index: 1;
+        }
+        .report-card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            padding: 32px 32px 24px 32px;
+            margin: 32px auto 0 auto;
+            max-width: 1800px;
+        }
+        .chart-container {
+            width: 98vw;
+            max-width: 1800px;
+            margin: 0 auto 20px auto;
+            padding: 0;
+        }
+        .charts-side-by-side {
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            justify-content: center;
+            align-items: stretch;
+            width: 100%;
+            margin: 0 auto;
+            flex-wrap: nowrap;
+        }
+        .chart-box {
+            flex: 1 1 0;
+            min-width: 600px;
+            max-width: 1200px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #plotlyChart {
+            width: 100% !important;
+            height: 480px !important;
+            min-width: 600px;
+            max-width: 1200px;
+        }
+        .expense-summary {
+            display: none;
+        }
+        .report-content {
+            display: none;
+        }
+        .expense-summary table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .expense-summary th, .expense-summary td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #dddddd;
+        }
+        .expense-summary th {
+            background-color: #6c5ce7;
+            color: white;
+        }
+        .expense-summary tr:nth-child(even) {
+            background-color: #f3f3f3;
+        }
+        .report-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            flex: 1;
+            min-width: 200px;
+        }
+        .download-dropdown {
+            margin-left: auto;
+            position: relative;
+            display: inline-block;
+        }
+        .download-btn {
+            padding: 10px 15px;
+            background-color: #6c5ce7;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .download-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            background-color: #f9f9f9;
+            min-width: 120px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 4px;
+        }
+        .download-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .download-content a:hover {
+            background-color: #f1f1f1;
+            border-radius: 4px;
+        }
+        .download-dropdown:hover .download-content {
+            display: block;
+        }
+        .btn {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn-primary {
+            background-color: #6c5ce7;
+            color: white;
+        }
+        .notification {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 15px;
+            background-color: #00b894;
+            color: white;
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: none;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar-container"></div>
+
+    <div class="dashboard-container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="tripdetails.html"><i class="fas fa-route"></i> Plan Your Trip</a></li>
+                <li><a href="mytrips.html"><i class="fas fa-suitcase"></i> My Trips</a></li>
+                <li><a href="expenses.html"><i class="fas fa-wallet"></i> Expenses</a></li>
+                <li class="active"><a href="reports.html"><i class="fas fa-chart-pie"></i> Reports</a></li>
+                <li><a href="settings.html"><i class="fas fa-cog"></i> Settings</a></li>
+                <li><a href="#" id="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h1>Expense Reports</h1>
+            
+            <div class="report-controls">
+                <div class="form-group">
+                    <label for="reportType">Trip Type</label>
+                    <select id="reportType" name="reportType" class="form-control">
+                        <option value="category">By Category</option>
+                        <option value="trip">By Trip</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="tripName">Trip Name</label>
+                    <select id="tripName" name="tripName" class="form-control" style="width:100%; min-width:200px; border-radius:6px; padding:8px;">
+                        <option value="">Loading trips...</option>
+                    </select>
+                    <small id="multiSelectHint" style="display:none;color:#888;">Hold Ctrl (Windows) or Command (Mac) to select multiple trips.</small>
+                </div>
+                <button id="generateReport" class="btn btn-primary">Generate Report</button>
+                
+                <div class="download-dropdown">
+                    <button class="download-btn"><i class="fas fa-download"></i> Download Report</button>
+                    <div class="download-content">
+                        <a href="#" id="downloadPDF"><i class="fas fa-file-pdf"></i> PDF</a>
+                        <a href="#" id="downloadExcel"><i class="fas fa-file-excel"></i> Excel</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="report-content">
+                <div class="report-card">
+                    <div class="chart-container charts-side-by-side">
+                        <div class="chart-box">
+                            <canvas id="expenseChart" style="display:none;"></canvas>
+                            <div id="plotlyChart" style="width:100%;height:400px;display:none;"></div>
+                        </div>
+                    </div>
+                    <div class="expense-summary">
+                        <h2>Expense Summary</h2>
+                        <table id="summaryTable">
+                            <thead>
+                                <tr>
+                                    <th>Category</th>
+                                    <th>Total Amount</th>
+                                    <th>Percentage</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Summary will be loaded here dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="notification" id="notification"></div>
+
+        <script>
+        // Show/hide multi-select hint based on trip type
+        document.addEventListener('DOMContentLoaded', function() {
+            var reportType = document.getElementById('reportType');
+            var hint = document.getElementById('multiSelectHint');
+            function updateHint() {
+                if (reportType.value === 'trip') {
+                    hint.style.display = '';
+                } else {
+                    hint.style.display = 'none';
+                }
+            }
+            reportType.addEventListener('change', updateHint);
+            updateHint();
+        });
+        </script>
+        <script src="js/auth.js"></script>
+        <script src="js/reports.js"></script>
+</body>
+</html>

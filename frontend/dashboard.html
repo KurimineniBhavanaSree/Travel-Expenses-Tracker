@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - AI Travel Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+
+    <div class="dashboard-container">
+        <div class="sidebar">
+            <ul>
+                <li class="active"><a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="tripdetails.html"><i class="fas fa-route"></i> Plan Your Trip</a></li>
+                <li><a href="mytrips.html"><i class="fas fa-suitcase"></i> My Trips</a></li>
+                <li><a href="expenses.html"><i class="fas fa-wallet"></i> Expenses</a></li>
+                <li><a href="reports.html"><i class="fas fa-chart-pie"></i> Reports</a></li>
+                <li><a href="settings.html"><i class="fas fa-cog"></i> Settings</a></li>
+                <li><a href="#" id="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h1>Welcome to Your Travel Dashboard</h1>
+            
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide active">
+                        <img src="images/trip1.png" alt="Travel Destination 1">
+                        <div class="carousel-caption">
+                            <h3>Explore New Destinations</h3>
+                            <p>Let AI help you plan your next adventure</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/trip2.png" alt="Travel Destination 2">
+                        <div class="carousel-caption">
+                            <h3>Personalized Itineraries</h3>
+                            <p>Get day-by-day plans tailored to your preferences</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/trip3.png" alt="Travel Destination 3">
+                        <div class="carousel-caption">
+                            <h3>Track Your Expenses</h3>
+                            <p>Stay on budget with our expense tracking tools</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="carousel-indicators">
+                        <span class="indicator active"></span>
+                        <span class="indicator"></span>
+                        <span class="indicator"></span>
+                    </div>
+                    <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            
+            <div class="dashboard-cards">
+                <div class="dashboard-card">
+                    <h2><i class="fas fa-route"></i> Plan Your Trip</h2>
+                    <p>Create a new trip and get a personalized AI-generated itinerary.</p>
+                    <a href="tripdetails.html" class="btn btn-primary">Start Planning</a>
+                </div>
+                <div class="dashboard-card">
+                    <h2><i class="fas fa-wallet"></i> Track Expenses</h2>
+                    <p>Record your travel expenses and stay on budget.</p>
+                    <a href="expenses.html" class="btn btn-primary">Add Expenses</a>
+                </div>
+                <div class="dashboard-card">
+                    <h2><i class="fas fa-chart-pie"></i> View Reports</h2>
+                    <p>Analyze your spending with visual reports.</p>
+                    <a href="reports.html" class="btn btn-primary">View Reports</a>
+                </div>
+            </div>
+
+            <div class="recent-trips">
+                <h2>Your Recent Trips</h2>
+                <div id="trips-list" class="trips-list">
+                    <!-- Trips will be loaded here dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/auth.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

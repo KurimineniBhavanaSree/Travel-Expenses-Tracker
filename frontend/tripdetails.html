@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plan Your Trip - AI Travel Planner</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    .loading-indicator {
+      display: none;
+      text-align: center;
+      padding: 20px;
+      color: #333;
+    }
+    .loading-indicator i {
+      margin-right: 10px;
+    }
+    .edit-mode-btn {
+      display: none;
+      margin-left: 10px;
+    }
+    .itinerary-container {
+      margin-top: 30px;
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .itinerary-content {
+      margin-top: 15px;
+      padding: 15px;
+      background: white;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="navbar-container"></div>
+
+  <div class="dashboard-container">
+    <div class="sidebar">
+      <ul>
+        <li><a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a></li>
+        <li class="active"><a href="tripdetails.html"><i class="fas fa-route"></i> Plan Your Trip</a></li>
+        <li><a href="mytrips.html"><i class="fas fa-suitcase"></i> My Trips</a></li>
+        <li><a href="expenses.html"><i class="fas fa-wallet"></i> Expenses</a></li>
+        <li><a href="reports.html"><i class="fas fa-chart-pie"></i> Reports</a></li>
+        <li><a href="settings.html"><i class="fas fa-cog"></i> Settings</a></li>
+        <li><a href="#" id="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+      </ul>
+    </div>
+
+    <div class="main-content">
+      <div id="loadingIndicator" class="loading-indicator">
+        <i class="fas fa-spinner fa-spin"></i> Loading trip details...
+      </div>
+
+      <h1 id="formTitle">Plan Your Trip</h1>
+
+      <div class="trip-form-container">
+        <form id="tripForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="tripName">Trip Name</label>
+              <input type="text" id="tripName" name="tripName" required />
+            </div>
+            <div class="form-group">
+              <label for="destination">Destination</label>
+              <select id="destination" name="destination" required>
+                <option value="">Select Destination</option>
+                <option value="Agra">Agra</option>
+                <option value="Goa">Goa</option>
+                <option value="Udaipur">Udaipur</option>
+                <option value="Manali">Manali</option>
+                <option value="Leh-Ladakh">Leh-Ladakh</option>
+                <option value="Darjeeling">Darjeeling</option>
+                <option value="Shimla">Shimla</option>
+                <option value="Ooty">Ooty</option>
+                <option value="Munnar">Munnar</option>
+                <option value="Alleppey">Alleppey</option>
+                <option value="Rishikesh">Rishikesh</option>
+                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                <option value="Puducherry">Puducherry</option>
+                <option value="Hampi">Hampi</option>
+                <option value="Jaisalmer">Jaisalmer</option>
+                <option value="Mysuru">Mysuru</option>
+                <option value="Ranthambore National Park">Ranthambore National Park</option>
+                <option value="Khajuraho">Khajuraho</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Kodaikanal">Kodaikanal</option>
+                <option value="Rann of Kutch">Rann of Kutch</option>
+                <option value="Tawang">Tawang</option>
+                <option value="Coorg">Coorg</option>
+                <option value="Mahabalipuram">Mahabalipuram</option>
+                <option value="Tirupati">Tirupati</option>
+                <option value="Vaishno Devi">Vaishno Devi</option>
+                <option value="Amritsar">Amritsar</option>
+                <option value="Shirdi">Shirdi</option>
+                <option value="Rameswaram">Rameswaram</option>
+                <option value="Dwarka">Dwarka</option>
+                <option value="Puri Jagannath Temple">Puri Jagannath Temple</option>
+                <option value="Kedarnath">Kedarnath</option>
+                <option value="Badrinath">Badrinath</option>
+                <option value="Haridwar">Haridwar</option>
+                <option value="Madurai">Madurai</option>
+                <option value="Kanchipuram">Kanchipuram</option>
+                <option value="Sabarimala">Sabarimala</option>
+                <option value="Somnath">Somnath</option>
+                <option value="Bodh Gaya">Bodh Gaya</option>
+                <option value="Ajmer Sharif Dargah">Ajmer Sharif Dargah</option>
+                <option value="Hazrat Nizamuddin Dargah">Hazrat Nizamuddin Dargah</option>
+                <option value="Mount Abu">Mount Abu</option>
+                <option value="Guruvayur">Guruvayur</option>
+                <option value="Ujjain">Ujjain</option>
+                <option value="Kalahasti">Kalahasti</option>
+                <option value="Shravanabelagola">Shravanabelagola</option>
+                <option value="Srisailam">Srisailam</option>
+                <option value="Kamakhya Temple">Kamakhya Temple</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Ayodhya">Ayodhya</option>
+                <option value="Kashi">Kashi</option>
+                <option value="Radhanagar Beach">Radhanagar Beach, Andaman & Nicobar Islands</option>
+                <option value="Marina Beach">Marina Beach</option>
+                <option value="Kovalam Beach">Kovalam Beach</option>
+                <option value="Kanyakumari">Kanyakumari</option>
+                <option value="RK Beach">RK Beach</option>
+                <option value="Varkala Beach">Varkala Beach, Kerala</option>
+                <option value="Puri Beach">Puri Beach</option>
+                <option value="Gokarna">Gokarna</option>
+                <option value="Mandarmani">Mandarmani</option>
+                <option value="Tarkarli">Tarkarli</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="startDate">Start Date</label>
+              <input type="date" id="startDate" name="startDate" required />
+            </div>
+            <div class="form-group">
+              <label for="endDate">End Date</label>
+              <input type="date" id="endDate" name="endDate" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="budgetType">Budget Type</label>
+              <select id="budgetType" name="budgetType" required>
+                <option value="">Select Budget Type</option>
+                <option value="cheap">Cheap</option>
+                <option value="moderate">Moderate</option>
+                <option value="luxury">Luxury</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="budget">Budget Amount</label>
+              <input type="number" id="budget" name="budget" min="0" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="peopleCount">Number of People</label>
+              <input type="number" id="peopleCount" name="peopleCount" min="1" required />
+            </div>
+            <div class="form-group">
+              <label for="companionType">Companion</label>
+              <select id="companionType" name="companionType" required>
+                <option value="">Select Companion Type</option>
+                <option value="solo">Solo</option>
+                <option value="family">Family</option>
+                <option value="friends">Friends</option>
+                <option value="couple">Couple</option>
+                <option value="business">Business</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" id="submitBtn" class="btn btn-primary">Create Trip</button>
+            <button type="button" id="editBtn" class="btn btn-secondary edit-mode-btn">
+              <i class="fas fa-edit"></i> Edit Trip
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div id="itineraryContainer" class="itinerary-container" style="display: none;">
+        <h2>Your AI-Generated Itinerary</h2>
+        <div id="itineraryContent" class="itinerary-content"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/tripdetails.js"></script>
+  <!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</body>
+</html>

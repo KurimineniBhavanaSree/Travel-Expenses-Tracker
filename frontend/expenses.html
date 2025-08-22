@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Expense Tracking - AI Travel Planner</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    .expense-form {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    .expenses-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    .expenses-table th, .expenses-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    .expenses-table th {
+      background-color: #f2f2f2;
+    }
+    #message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    margin: 0;             /* Remove default margin */
+    padding: 10px 20px;    /* Add some padding */
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    display: none;         /* Hide by default, show with JS */
+    z-index: 1000;         /* Make sure it appears above other content */
+    font-family: Arial, sans-serif;
+    }
+
+    .btn-action {
+      cursor: pointer;
+      color: #007bff;
+      border: none;
+      background: none;
+      padding: 0 5px;
+    }
+
+    .styled-btn {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  margin: 2px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s;
+  background-color: #007bff;
+  color: white;
+}
+
+.styled-btn:hover {
+  background-color: #0056b3;
+}
+
+.styled-btn.danger {
+  background-color: #dc3545;
+}
+
+.styled-btn.danger:hover {
+  background-color: #a71d2a;
+}
+
+
+  </style>
+</head>
+<body>
+  <div id="navbar-container"></div>
+
+  <div class="dashboard-container">
+    <div class="sidebar">
+      <ul>
+        <li><a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a></li>
+        <li><a href="tripdetails.html"><i class="fas fa-route"></i> Plan Your Trip</a></li>
+        <li><a href="mytrips.html"><i class="fas fa-suitcase"></i> My Trips</a></li>
+        <li class="active"><a href="expenses.html"><i class="fas fa-wallet"></i> Expenses</a></li>
+        <li><a href="reports.html"><i class="fas fa-chart-pie"></i> Reports</a></li>
+        <li><a href="settings.html"><i class="fas fa-cog"></i> Settings</a></li>
+        <li><a href="#" id="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+      </ul>
+    </div>
+
+    <div class="main-content">
+      <h1>Expense Tracking</h1>
+
+      <div class="expense-form">
+        <h2>Add Expense</h2>
+        <div id="message"></div>
+        <form id="expenseForm">
+          <div class="form-group">
+            <label for="tripDropdown">Trip</label>
+            <select id="tripDropdown" required>
+              <option value="">Select Trip</option>
+            </select>
+          </div>
+
+          <div style="display:flex; justify-content:flex-end; align-items:center; margin-bottom:10px;">
+            <label for="baseCurrency" style="margin-right:8px; font-weight:bold;">Base Currency:</label>
+            <select id="baseCurrency">
+              <option value="">Select Base Currency</option>
+              <option value="USD">USD - US Dollar</option>
+              <option value="EUR">EUR - Euro</option>
+              <option value="INR">INR - Indian Rupee</option>
+              <option value="GBP">GBP - British Pound</option>
+              <option value="AUD">AUD - Australian Dollar</option>
+              <option value="CAD">CAD - Canadian Dollar</option>
+              <option value="JPY">JPY - Japanese Yen</option>
+              <option value="CNY">CNY - Chinese Yuan</option>
+              <option value="CHF">CHF - Swiss Franc</option>
+              <option value="NZD">NZD - New Zealand Dollar</option>
+              <option value="SEK">SEK - Swedish Krona</option>
+              <option value="KRW">KRW - South Korean Won</option>
+              <option value="SGD">SGD - Singapore Dollar</option>
+              <option value="NOK">NOK - Norwegian Krone</option>
+              <option value="MXN">MXN - Mexican Peso</option>
+              <option value="ZAR">ZAR - South African Rand</option>
+              <option value="TRY">TRY - Turkish Lira</option>
+              <option value="BRL">BRL - Brazilian Real</option>
+              <option value="RUB">RUB - Russian Ruble</option>
+              <option value="HKD">HKD - Hong Kong Dollar</option>
+              <option value="MYR">MYR - Malaysian Ringgit</option>
+              <option value="IDR">IDR - Indonesian Rupiah</option>
+              <option value="THB">THB - Thai Baht</option>
+              <option value="PHP">PHP - Philippine Peso</option>
+              <option value="PLN">PLN - Polish Zloty</option>
+              <option value="AED">AED - UAE Dirham</option>
+              <option value="DKK">DKK - Danish Krone</option>
+              <option value="HUF">HUF - Hungarian Forint</option>
+              <option value="CZK">CZK - Czech Koruna</option>
+              <option value="ILS">ILS - Israeli Shekel</option>
+            </select>
+          </div>
+
+          <div class="form-row" style="display:flex; gap:15px;">
+            <div class="form-group" style="flex:1;">
+              <label for="expenseAmount">Amount</label>
+              <input type="number" id="expenseAmount" step="0.01" min="0" required />
+            </div>
+            <div class="form-group" style="flex:1;">
+              <label for="expenseCurrency">Currency</label>
+              <select id="expenseCurrency" required>
+                <option value="">Select Currency</option>
+                <option value="USD">USD - US Dollar</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="INR">INR - Indian Rupee</option>
+                <option value="GBP">GBP - British Pound</option>
+                <option value="AUD">AUD - Australian Dollar</option>
+                <option value="CAD">CAD - Canadian Dollar</option>
+                <option value="JPY">JPY - Japanese Yen</option>
+                <option value="CNY">CNY - Chinese Yuan</option>
+                <option value="CHF">CHF - Swiss Franc</option>
+                <option value="NZD">NZD - New Zealand Dollar</option>
+                <option value="SEK">SEK - Swedish Krona</option>
+                <option value="KRW">KRW - South Korean Won</option>
+                <option value="SGD">SGD - Singapore Dollar</option>
+                <option value="NOK">NOK - Norwegian Krone</option>
+                <option value="MXN">MXN - Mexican Peso</option>
+                <option value="ZAR">ZAR - South African Rand</option>
+                <option value="TRY">TRY - Turkish Lira</option>
+                <option value="BRL">BRL - Brazilian Real</option>
+                <option value="RUB">RUB - Russian Ruble</option>
+                <option value="HKD">HKD - Hong Kong Dollar</option>
+                <option value="MYR">MYR - Malaysian Ringgit</option>
+                <option value="IDR">IDR - Indonesian Rupiah</option>
+                <option value="THB">THB - Thai Baht</option>
+                <option value="PHP">PHP - Philippine Peso</option>
+                <option value="PLN">PLN - Polish Zloty</option>
+                <option value="AED">AED - UAE Dirham</option>
+                <option value="DKK">DKK - Danish Krone</option>
+                <option value="HUF">HUF - Hungarian Forint</option>
+                <option value="CZK">CZK - Czech Koruna</option>
+                <option value="ILS">ILS - Israeli Shekel</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="expenseDescription">Description</label>
+            <input type="text" id="expenseDescription" required />
+          </div>
+
+          <div class="form-row" style="display:flex; gap:15px;">
+            <div class="form-group" style="flex:1;">
+              <label for="expenseDate">Date</label>
+              <input type="date" id="expenseDate" required />
+            </div>
+            <div class="form-group" style="flex:1;">
+              <label for="expenseCategory">Category</label>
+              <select id="expenseCategory" required>
+                <option value="">Select Category</option>
+                <option value="Transportation">Transportation</option>
+                <option value="Accommodation">Accommodation</option>
+                <option value="Food">Food</option>
+                <option value="Activities">Activities</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="box-shadow:0 2px 8px rgba(74,111,165,0.10);font-weight:600;font-size:16px;border-radius:10px;">Add Expense</button>
+        </form>
+      </div>
+
+      <div class="expense-list">
+        <h2>View Expenses</h2>
+  <button id="viewExpensesBtn" class="btn btn-primary" style="margin:10px 0 20px 0;box-shadow:0 2px 8px rgba(74,111,165,0.10);font-weight:600;font-size:16px;border-radius:10px;">View Expenses</button>
+        <div id="exchangeRateInfo"></div>
+        <div id="expensesContainer">
+          <p>Select a trip to view expenses</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="messageBox" style="display:none; color: green; margin: 10px 0;"></div>
+
+
+  <script src="js/auth.js"></script>
+  <script src="js/expenses.js"></script>
+</body>
+</html>
